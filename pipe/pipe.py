@@ -2,7 +2,6 @@ class Pipe:
     def __init__(self, funcs, remove_null=False):
         self.funcs = funcs
         self.remove_null = remove_null
-        self.no_wrap = False
         self.wrap()
 
     def wrap(self):
@@ -11,7 +10,7 @@ class Pipe:
                     or self.funcs[i].__defaults__.count("__no_wrap__") == 0):
                 self.funcs[i] = self.__wrap(self.funcs[i])
             else:
-                self.no_wrap = True
+                self.funcs[i] = self.__remove_null(self.funcs[i])
 
     def __wrap(self, func):
         def wrapper(seq):
@@ -23,19 +22,23 @@ class Pipe:
 
         return wrapper
 
-    def __remove_null(self, seq):
-        if seq == None:
+    def __remove_null(self, func):
+        def wrapper(seq):
+            if seq == None: return seq
+            seq = func(seq)
+            if seq == None: return seq
+
+            if self.remove_null:
+                for i in range(len(seq)):
+                    if seq[i] == None: seq.pop(i)
+
             return seq
-        for i in range(len(seq)):
-            if seq[i] == None:
-                seq.pop(i)
-        return seq
+
+        return wrapper
 
     def __call__(self, seq):
         for func in self.funcs:
             seq = func(seq)
-        if self.no_wrap:
-            seq = self.__remove_null(seq)
         return seq
 
     @classmethod
