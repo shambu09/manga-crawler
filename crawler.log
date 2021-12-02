@@ -1,0 +1,15 @@
+03-12-2021 02:30:17 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+03-12-2021 02:30:19 - crawler.main - INFO --> Title: Kingdom
+03-12-2021 02:31:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/10
+03-12-2021 02:31:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/10
+03-12-2021 02:31:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/10
+03-12-2021 02:31:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/10
+03-12-2021 02:31:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/10
+03-12-2021 02:32:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/10
+03-12-2021 02:32:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/10
+03-12-2021 02:32:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/10
+03-12-2021 02:32:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/10
+03-12-2021 02:32:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/10
+03-12-2021 02:32:52 - crawler.main - INFO --> Done crawling!
+03-12-2021 02:32:52 - crawler.utils.timeit - INFO --> "main" took: 154.2688648700714 secs
+

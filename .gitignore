@@ -1,0 +1,7 @@
+.vscode
+metadata/*.json
+venv
+tmp
+__pycache__
+.env
+/*.json
