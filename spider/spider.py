@@ -1,10 +1,9 @@
-import sys, os, io, logging
+import os, io, gc, logging
 import requests, bs4
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 from aiohttp import ClientSession, ClientResponseError
 
-from utils import timeit
 from gdrive import Google_Drive
 
 
@@ -102,8 +101,9 @@ class Crawl:
 
     @staticmethod
     def threaded_upload_image(parent_id, name, res):
-        res = io.BytesIO(res)
-        file_id = Google_Drive.create_file(name, parent_id, res, "image/jpeg")
+        _res = io.BytesIO(res)
+        file_id = Google_Drive.create_file(name, parent_id, _res, "image/jpeg")
+        _res.close()
         return file_id
 
     @staticmethod
@@ -137,7 +137,10 @@ class Crawl:
             chapter["images_links"][i +
                                     1] = Google_Drive.get_public_url_file(_id)
 
-        Crawl.logger.info(f"Downloaded chapter: {chapter['chapter']}/{Crawl.NUM}")
+        Crawl.logger.info(
+            f"Downloaded chapter: {chapter['chapter']}/{Crawl.NUM}")
+
+        gc.collect()
         return chapter
 
 

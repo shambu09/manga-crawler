@@ -1,4 +1,4 @@
-import os, logging, json, io
+import os, logging, json, io, gc
 from dotenv import load_dotenv
 from gdrive import Google_Drive
 from utils import get_logger, timeit
@@ -21,8 +21,8 @@ def main(url, start=0, end=-1):
 
     title, res = Crawl.extract_index(url)
     length = len(res)
-    logger.info(f"Title: {title}")
-    
+    logger.info(f"Title: {title} ({start} - {end})")
+
     Google_Drive.PARENT_FOLDER_ID = Google_Drive.create_folder(
         title, Google_Drive.PARENT_FOLDER_ID)
 
@@ -47,8 +47,9 @@ def main(url, start=0, end=-1):
     with open(f"metadata/{title}.json", "w") as f:
         json.dump(out, f, indent=6)
 
+    gc.collect()
     logger.info("Done crawling!")
 
 
 if __name__ == "__main__":
-    main("https://readmanganato.com/manga-qi951517", 0, 10)
+    main("https://readmanganato.com/manga-qi951517", 0, 100)

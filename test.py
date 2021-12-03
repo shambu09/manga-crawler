@@ -8,19 +8,19 @@ TODO: Write tests for the crawler.
 # import io
 
 # load_dotenv()
-# # from config import get_drive_service, public_put_file_to_folder_resumable, public_get_document_view_url
+# from config import get_drive_service, public_put_file_to_folder_resumable, public_get_document_view_url
 
-# # bytesO = "haha"
-# # bytesO = bytes(bytesO.encode())
-# # print(len(bytesO))
+# bytesO = "haha"
+# bytesO = bytes(bytesO.encode())
+# print(len(bytesO))
 
-# # folder_id = os.environ.get("DATA_FOLDER_ID")
-# # file_name = "tmp.txt"
+# folder_id = os.environ.get("DATA_FOLDER_ID")
+# file_name = "tmp.txt"
 
-# # drive, gauth = get_drive_service()
-# # _id = public_put_file_to_folder_resumable(drive, file_name, "text/plain", folder_id)
+# drive, gauth = get_drive_service()
+# _id = public_put_file_to_folder_resumable(drive, file_name, "text/plain", folder_id)
 
-# # print(public_get_document_view_url(_id))
+# print(public_get_document_view_url(_id))
 
 # import logging
 
@@ -30,6 +30,7 @@ TODO: Write tests for the crawler.
 # ACCOUNT_SECRETS = os.environ.get("ACCOUNT_SECRETS")
 # parent_id = os.environ.get("DATA_FOLDER_ID")
 
+# from gdrive import Google_Drive
 # Google_Drive.init(ACCOUNT_SECRETS)
 
 # with open("spider/res/1/2.jpg", 'rb') as f:
@@ -73,3 +74,11 @@ TODO: Write tests for the crawler.
 # from gdrive import Google_Drive
 
 # print(Google_Drive.drive)
+# import io
+# import gc
+
+# def hi():
+#     f = io.BytesIO()
+#     f.write(b"haha")
+
+# print(gc.collect())
