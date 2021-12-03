@@ -136,3 +136,32 @@
 03-12-2021 21:23:54 - crawler.main - INFO --> Done crawling!
 03-12-2021 21:23:54 - crawler.utils.timeit - INFO --> "main" took: 169.2413477897644 secs
 
+04-12-2021 00:07:36 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+04-12-2021 00:07:37 - crawler.main - INFO --> Title: Kingdom (0 - 4)
+04-12-2021 00:08:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/4
+04-12-2021 00:08:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/4
+04-12-2021 00:08:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/4
+04-12-2021 00:08:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/4
+04-12-2021 00:08:51 - crawler.main - INFO --> Uploaded metadata of manga
+04-12-2021 00:08:55 - crawler.main - INFO --> Updated global metadata index
+04-12-2021 00:08:55 - crawler.main - INFO --> Done crawling!
+04-12-2021 00:08:55 - crawler.utils.timeit - INFO --> "main" took: 79.44179844856262 secs
+
+04-12-2021 00:18:01 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+04-12-2021 00:18:03 - crawler.main - INFO --> Title: Kingdom (0 - 2)
+04-12-2021 00:18:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/2
+04-12-2021 00:19:07 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/2
+04-12-2021 00:19:09 - crawler.main - INFO --> Uploaded metadata of manga
+04-12-2021 00:19:13 - crawler.main - INFO --> Updated global metadata index
+04-12-2021 00:19:13 - crawler.main - INFO --> Done crawling!
+04-12-2021 00:19:13 - crawler.utils.timeit - INFO --> "main" took: 72.1850836277008 secs
+
+04-12-2021 00:22:58 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+04-12-2021 00:22:59 - crawler.main - INFO --> Title: Kingdom (0 - 2)
+04-12-2021 00:23:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/2
+04-12-2021 00:23:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/2
+04-12-2021 00:23:45 - crawler.main - INFO --> Uploaded metadata of manga
+04-12-2021 00:23:49 - crawler.main - INFO --> Updated global metadata index
+04-12-2021 00:23:49 - crawler.main - INFO --> Done crawling!
+04-12-2021 00:23:49 - crawler.utils.timeit - INFO --> "main" took: 51.341795682907104 secs
+

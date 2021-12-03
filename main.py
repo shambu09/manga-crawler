@@ -39,9 +39,16 @@ def main(url, start=0, end=-1):
         Pipe.customize(start=start, end=end)(Crawl.custom_chapter_range),
         Crawl.fetch_image_urls,
         Crawl.upload_images_drive,
+        Crawl.clean_res,
     ])
 
     out = pipe(res)
+
+    out = {
+        "title": f"{title} ({start} - {end})",
+        "num_chapters": len(out),
+        "chapters": out,
+    }
     chapter_meta = json.dumps(out, indent=6)
     chapter_meta = io.BytesIO(chapter_meta.encode())
 
@@ -54,8 +61,7 @@ def main(url, start=0, end=-1):
     logger.info(f"Uploaded metadata of manga")
 
     metadata = Google_Drive.download_json_file(METADATA_JSON)
-    metadata[Google_Drive.get_public_url_file(
-        file_id)] = f"{title} ({start} - {end})"
+    metadata[file_id] = f"{title} ({start} - {end})"
     metadata = json.dumps(metadata, indent=6)
     Google_Drive.update_json_file(METADATA_JSON, metadata)
 
@@ -72,4 +78,4 @@ def main(url, start=0, end=-1):
 
 
 if __name__ == "__main__":
-    main("https://readmanganato.com/manga-qi951517", 0, 11)
+    main("https://readmanganato.com/manga-qi951517", 0, 2)

@@ -146,6 +146,11 @@ class Crawl:
         gc.collect()
         return chapter
 
+    @staticmethod
+    def clean_res(chapter):
+        del chapter["images"]
+        return chapter
+
 
 class _Crawl:
     @staticmethod

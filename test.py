@@ -110,3 +110,19 @@ Google_Drive.init(ACCOUNT_SECRETS)
 # Google_Drive.update_json_file(METADATA_JSON, json.dumps(updated, indent=6))
 # k = requests.get(Google_Drive.get_public_url_file(METADATA_JSON))
 # print(json.loads(k.text))
+#----------------------------------------------------------------------------------
+# meta = Google_Drive.download_json_file(METADATA_JSON)
+
+# for i in meta:
+#     if i == "1DTtLO3BMZ51EdSrHQ78V9NjcMrf2FDwx": continue
+#     g = Google_Drive.download_json_file(i)
+#     for chap in g:
+#         del chap["images"]
+    
+#     out = {
+#         "title": meta[i],
+#         "num_chapters": len(g),
+#         "chapters": g,
+#     }
+#     Google_Drive.update_json_file(i, json.dumps(out, indent=6))
+#----------------------------------------------------------------------------------
