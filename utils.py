@@ -13,7 +13,9 @@ def get_logger():
 
     formatter = logging.Formatter("%(name)s - %(levelname)s --> %(message)s")
     f_formatter = logging.Formatter(
-        "%(asctime)s - %(name)s - %(levelname)s --> %(message)s", datefmt="%d-%m-%Y %H:%M:%S")
+        "%(asctime)s - %(name)s - %(levelname)s --> %(message)s",
+        datefmt="%d-%m-%Y %H:%M:%S",
+    )
 
     ch.setFormatter(formatter)
     fh.setFormatter(f_formatter)

@@ -1,12 +1,13 @@
-import os
-import requests
 import json
+import os
 from io import BytesIO
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
-from oauth2client.service_account import ServiceAccountCredentials
+
+import requests
 from google.auth.transport import requests as grequests
 from google.oauth2 import service_account
+from oauth2client.service_account import ServiceAccountCredentials
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
 
 
 class Authentication:
