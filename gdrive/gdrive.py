@@ -213,7 +213,7 @@ class Google_Drive(Authentication):
         data = file.GetContentString()
         data = json.loads(data)
         return data
-    
+
     @classmethod
     def update_json_file(cls, file_id, data):
         assert isinstance(data, str)
