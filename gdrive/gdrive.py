@@ -205,3 +205,21 @@ class Google_Drive(Authentication):
             'role': 'reader'
         })
         return new_permission
+
+    @classmethod
+    def download_json_file(cls, file_id):
+        file = cls.drive.CreateFile({'id': file_id})
+        meta = file.FetchMetadata()
+        data = file.GetContentString()
+        data = json.loads(data)
+        return data
+    
+    @classmethod
+    def update_json_file(cls, file_id, data):
+        assert isinstance(data, str)
+        file = cls.drive.CreateFile({'id': file_id})
+        file.FetchMetadata()
+        file.SetContentString(data)
+        file.Upload()
+        assert file_id == file['id']
+        return file["id"]

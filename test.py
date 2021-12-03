@@ -68,10 +68,25 @@ TODO: Write tests for the crawler.
 # import io
 # res = io.BytesIO(res.encode())
 
-# Google_Drive.init(ACCOUNT_SECRETS)
-# Google_Drive.create_file("res.json", PARENT_FOLDER_ID, res, "application/json")
-# import main
-# from gdrive import Google_Drive
+import json
+import os
+
+import requests
+from dotenv import load_dotenv
+
+from gdrive import Google_Drive
+from main import METADATA_JSON, PARENT_FOLDER_ID
+
+load_dotenv()
+ACCOUNT_SECRETS = os.environ.get("ACCOUNT_SECRETS")
+PARENT_FOLDER_ID = os.environ.get("DATA_FOLDER_ID")
+METADATA_JSON = os.environ.get("METADATA_JSON")
+Google_Drive.init(ACCOUNT_SECRETS)
+
+# k = Google_Drive.download_json_file(METADATA_JSON)
+# del k['hi']
+# k = json.dumps(k, indent=6)
+# Google_Drive.update_json_file(METADATA_JSON, k)
 
 # print(Google_Drive.drive)
 # import io
@@ -82,3 +97,16 @@ TODO: Write tests for the crawler.
 #     f.write(b"haha")
 
 # print(gc.collect())
+
+# --------------------------------------------------------------------------------
+# print(Google_Drive.get_public_url_file(METADATA_JSON))
+
+# k = Google_Drive.download_json_file(METADATA_JSON)
+
+# updated = {}
+# for i in k:
+#     updated[Google_Drive.get_public_url_file(i)] = k[i]
+
+# Google_Drive.update_json_file(METADATA_JSON, json.dumps(updated, indent=6))
+# k = requests.get(Google_Drive.get_public_url_file(METADATA_JSON))
+# print(json.loads(k.text))

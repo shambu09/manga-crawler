@@ -20,7 +20,6 @@ class Crawl:
     def extract_index(url):
         bs = bs4.BeautifulSoup(requests.get(url).content, "html.parser")
         title = bs.select("div.story-info-right>h1")[0].text
-        title = title.replace(" ", "_")
         res = bs.select("li.a-h>a")
         return title, res
 
