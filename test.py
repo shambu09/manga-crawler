@@ -126,3 +126,10 @@ Google_Drive.init(ACCOUNT_SECRETS)
 #     }
 #     Google_Drive.update_json_file(i, json.dumps(out, indent=6))
 #----------------------------------------------------------------------------------
+# j = Google_Drive.download_json_file("13iEugdhj_3MMsYOMpIKXQ4qNixsw1jg9")
+
+# j = j["chapters"]
+
+# assert isinstance(j, dict)
+# Google_Drive.update_json_file("13iEugdhj_3MMsYOMpIKXQ4qNixsw1jg9", json.dumps(j, indent=6))
+#----------------------------------------------------------------------------------
