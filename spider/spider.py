@@ -7,8 +7,71 @@ from concurrent.futures import ThreadPoolExecutor
 
 import bs4
 import requests
-from aiohttp import ClientResponseError, ClientSession
+from aiohttp import ClientResponseError, ClientSession, TCPConnector
 from gdrive import Google_Drive
+
+
+class Fetch:
+    logger = logging.getLogger("crawler.spider.Fetch")
+    MAX_TRIES = 3
+    SEM = asyncio.Semaphore(25)
+
+    @staticmethod
+    async def async_fetch(session, url, _type, tries=0):
+        if tries > Fetch.MAX_TRIES:
+            raise f"Error: Retry limit exceeded (retry: #{tries - 1})"
+
+        resp = None
+
+        try:
+            async with Fetch.SEM:
+                Fetch.logger.debug(f"Sem value: {Fetch.SEM._value}")
+                async with session.get(url, timeout=20) as response:
+                    resp = await response.read()
+
+        except ClientResponseError as e:
+            Fetch.logger.error(f"{_type}: {e}")
+
+        except asyncio.TimeoutError as e:
+            Fetch.logger.warning(
+                f"{_type}: Timeout, Retrying (retry: #{tries})")
+            try:
+                resp = await Fetch.async_fetch(session, url, _type, tries + 1)
+            except Exception as e:
+                Fetch.logger.error(f"{_type}: Retry Failed --> {e}")
+            else:
+                Fetch.logger.info(
+                    f"{_type}: Retry Successful (retry: #{tries})")
+                return resp
+
+        except Exception as e:
+            Fetch.logger.error(f"{_type}: {e}", exc_info=True)
+
+        return resp
+
+    @staticmethod
+    async def async_fetch_all(urls, headers, _type):
+        tasks = []
+
+        connector = TCPConnector(force_close=True)
+        async with ClientSession(headers=headers, connector=connector) as session:
+            for url in urls:
+                task = asyncio.ensure_future(
+                    Fetch.async_fetch(session, url, _type))
+                tasks.append(task)
+
+            responses = await asyncio.gather(*tasks)
+
+        return responses
+
+    @staticmethod
+    def fetch_resp(urls, headers=None, _type="Content"):
+        loop = asyncio.get_event_loop()
+        future = asyncio.ensure_future(
+            Fetch.async_fetch_all(urls, headers, _type))
+        loop.run_until_complete(future)
+        resp = future.result()
+        return resp
 
 
 class Crawl:
@@ -42,52 +105,13 @@ class Crawl:
         return chapters[start:end]
 
     @staticmethod
-    async def async_fetch(session, url):
-        try:
-            async with session.get(url, timeout=25) as response:
-                resp = await response.read()
-
-        except ClientResponseError as e:
-            Crawl.logger.error(e)
-
-        except asyncio.TimeoutError as e:
-            Crawl.logger.error("Timeout")
-
-        except Exception as e:
-            Crawl.logger.error(e, exc_info=True)
-
-        else:
-            return resp
-
-    @staticmethod
-    async def async_fetch_all(urls, headers):
-        tasks = []
-
-        async with ClientSession(headers=headers) as session:
-            for url in urls:
-                task = asyncio.ensure_future(Crawl.async_fetch(session, url))
-                tasks.append(task)
-
-            responses = await asyncio.gather(*tasks)
-
-        return responses
-
-    @staticmethod
-    def fetch_resp(urls, headers=None):
-        loop = asyncio.get_event_loop()
-        future = asyncio.ensure_future(Crawl.async_fetch_all(urls, headers))
-        loop.run_until_complete(future)
-        resp = future.result()
-        return resp
-
-    @staticmethod
     def fetch_image_urls(chapters, wrap="__no_wrap__"):
         Crawl.NUM = len(chapters)
         urls = []
         for chapter in chapters:
             urls.append(chapter["url"])
 
-        resp = Crawl.fetch_resp(urls)
+        resp = Fetch.fetch_resp(urls, _type="Image Urls")
 
         for j in range(len(chapters)):
             bs = bs4.BeautifulSoup(str(resp[j]), "html.parser")
@@ -118,7 +142,8 @@ class Crawl:
         headers = {
             "Referer": "https://mangakakalot.com/",
         }
-        resp = Crawl.fetch_resp(urls, headers=headers)
+
+        resp = Fetch.fetch_resp(urls, headers=headers, _type="Image Content")
 
         _id = chapter["chapter"]
 
@@ -143,7 +168,8 @@ class Crawl:
         Crawl.logger.info(
             f"Downloaded chapter: {chapter['chapter']}/{Crawl.NUM}")
 
-        gc.collect()
+        c = gc.collect()
+        Crawl.logger.debug(f"Garbage collector collected {c} objects")
         return chapter
 
     @staticmethod
@@ -162,7 +188,7 @@ class _Crawl:
         headers = {
             "Referer": "https://mangakakalot.com/",
         }
-        resp = Crawl.fetch_resp(urls, headers=headers)
+        resp = Fetch.fetch_resp(urls, headers=headers)
 
         folder_name = "res"
         _id = chapter["chapter"]

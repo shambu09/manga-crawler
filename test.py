@@ -68,6 +68,8 @@ TODO: Write tests for the crawler.
 # import io
 # res = io.BytesIO(res.encode())
 
+from asyncio import tasks
+from concurrent import futures
 import json
 import os
 
@@ -118,7 +120,7 @@ Google_Drive.init(ACCOUNT_SECRETS)
 #     g = Google_Drive.download_json_file(i)
 #     for chap in g:
 #         del chap["images"]
-    
+
 #     out = {
 #         "title": meta[i],
 #         "num_chapters": len(g),
@@ -132,3 +134,89 @@ Google_Drive.init(ACCOUNT_SECRETS)
 # assert isinstance(j, dict)
 # Google_Drive.update_json_file("13iEugdhj_3MMsYOMpIKXQ4qNixsw1jg9", json.dumps(j, indent=6))
 #----------------------------------------------------------------------------------
+import asyncio
+import aiohttp
+
+class N_Flawed_Async:
+    @staticmethod
+    async def request():
+        return requests.get("https://www.google.com")
+
+    @staticmethod
+    async def req_all():
+        tasks = []
+        for i in range(10):
+            task = asyncio.ensure_future(N_Flawed_Async.request())
+            tasks.append(task)
+
+        return await asyncio.gather(*tasks)
+
+    @staticmethod
+    def req_all_s():
+        tasks = []
+        for i in range(10):
+            tasks.append(requests.get("https://www.google.com"))
+
+        return tasks
+
+    @staticmethod
+    def req_all_p():
+        loop = asyncio.get_event_loop()
+        future = asyncio.ensure_future(N_Flawed_Async.req_all())
+        loop.run_until_complete(future)
+        return future.result()
+
+
+class N_Correct_Async:
+    @staticmethod
+    def req():
+        return requests.get("https://www.google.com").status_code
+
+    @staticmethod
+    async def req_all_p():
+        loop = asyncio.get_event_loop()
+        tasks = []
+        for i in range(1000):
+            task = loop.run_in_executor(
+                None, N_Correct_Async.req
+            )  #Should be a Self-Contained function, which is blocking the asyncio event loop
+            tasks.append(task)
+
+        return await asyncio.gather(*tasks)
+
+    @staticmethod
+    def req_all_p_executor():
+        loop = asyncio.get_event_loop()
+        future = asyncio.ensure_future(N_Correct_Async.req_all_p())
+        loop.run_until_complete(future)
+        return future.result()
+
+
+class N_Aoihttp_async:
+    @staticmethod
+    async def req(session):
+        async with session.get("https://www.google.com", timeout=25) as response:
+                return response.status
+            
+
+    @staticmethod
+    async def req_all_aiohttp():
+        tasks = []
+        async with aiohttp.ClientSession() as session:
+            for i in range(10):
+                task = asyncio.ensure_future(N_Aoihttp_async.req(session))
+                tasks.append(task)
+
+            return await asyncio.gather(*tasks)        
+
+    @staticmethod
+    def req_all_aiohttp_executor():
+        loop = asyncio.get_event_loop()
+        future = asyncio.ensure_future(N_Aoihttp_async.req_all_aiohttp())
+        loop.run_until_complete(future)
+        return future.result()
+        
+    
+# print(N_Flawed_Async.req_all_p())
+print(N_Correct_Async.req_all_p_executor())
+# print(N_Aoihttp_async.req_all_aiohttp_executor())

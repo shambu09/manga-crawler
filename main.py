@@ -20,7 +20,7 @@ METADATA_JSON = os.environ.get('METADATA_JSON')
 
 
 @timeit
-def main(url, start=0, end=-1):
+def main(url, start=0, end=-1, _type="manga"):
     Google_Drive.init(ACCOUNT_SECRETS, PARENT_FOLDER_ID)
     logger = logging.getLogger("crawler.main")
 
@@ -49,8 +49,10 @@ def main(url, start=0, end=-1):
     out = {
         "title": f"{title} ({start} - {end})",
         "num_chapters": len(out),
+        "type": _type,
         "chapters": out,
     }
+    
     chapter_meta = json.dumps(out, indent=6)
     chapter_meta = io.BytesIO(chapter_meta.encode())
 
@@ -80,5 +82,5 @@ def main(url, start=0, end=-1):
 
 
 if __name__ == "__main__":
-    main("https://readmanganato.com/manga-dr980474", 150, -1)
+    main("https://readmanganato.com/manga-dr980474", 0, -1, _type="manhwa")
     # main("https://readmanganato.com/manga-qi951517", 0, 2)

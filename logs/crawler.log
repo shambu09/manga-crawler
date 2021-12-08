@@ -1,0 +1,907 @@
+03-12-2021 02:30:17 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+03-12-2021 02:30:19 - crawler.main - INFO --> Title: Kingdom
+03-12-2021 02:31:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/10
+03-12-2021 02:31:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/10
+03-12-2021 02:31:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/10
+03-12-2021 02:31:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/10
+03-12-2021 02:31:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/10
+03-12-2021 02:32:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/10
+03-12-2021 02:32:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/10
+03-12-2021 02:32:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/10
+03-12-2021 02:32:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/10
+03-12-2021 02:32:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/10
+03-12-2021 02:32:52 - crawler.main - INFO --> Done crawling!
+03-12-2021 02:32:52 - crawler.utils.timeit - INFO --> "main" took: 154.2688648700714 secs
+
+03-12-2021 12:27:10 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+03-12-2021 12:27:11 - crawler.main - INFO --> Title: Kingdom (0 - 100)
+03-12-2021 12:27:55 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/100
+03-12-2021 12:28:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/100
+03-12-2021 12:28:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/100
+03-12-2021 12:28:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/100
+03-12-2021 12:28:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/100
+03-12-2021 12:29:01 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/100
+03-12-2021 12:29:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/100
+03-12-2021 12:29:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/100
+03-12-2021 12:29:37 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/100
+03-12-2021 12:29:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/100
+03-12-2021 12:30:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/100
+03-12-2021 12:30:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 12/100
+03-12-2021 12:30:34 - crawler.spider.Crawl - INFO --> Downloaded chapter: 13/100
+03-12-2021 12:30:41 - crawler.spider.Crawl - INFO --> Downloaded chapter: 14/100
+03-12-2021 12:30:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 15/100
+03-12-2021 12:31:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 16/100
+03-12-2021 12:31:23 - crawler.spider.Crawl - INFO --> Downloaded chapter: 17/100
+03-12-2021 12:31:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 18/100
+03-12-2021 12:31:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 19/100
+03-12-2021 12:32:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 20/100
+03-12-2021 12:32:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 21/100
+03-12-2021 12:32:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 22/100
+03-12-2021 12:32:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 23/100
+03-12-2021 12:32:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 24/100
+03-12-2021 12:33:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 25/100
+03-12-2021 12:33:10 - crawler.spider.Crawl - INFO --> Downloaded chapter: 26/100
+03-12-2021 12:33:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 27/100
+03-12-2021 12:33:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 28/100
+03-12-2021 12:33:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 29/100
+03-12-2021 12:34:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 30/100
+03-12-2021 12:34:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 31/100
+03-12-2021 12:34:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 32/100
+03-12-2021 12:34:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 33/100
+03-12-2021 12:34:51 - crawler.spider.Crawl - INFO --> Downloaded chapter: 34/100
+03-12-2021 12:35:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 35/100
+03-12-2021 12:35:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 36/100
+03-12-2021 12:35:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 37/100
+03-12-2021 12:35:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 38/100
+03-12-2021 12:35:50 - crawler.spider.Crawl - INFO --> Downloaded chapter: 39/100
+03-12-2021 12:36:01 - crawler.spider.Crawl - INFO --> Downloaded chapter: 40/100
+03-12-2021 12:36:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 41/100
+03-12-2021 12:36:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 42/100
+03-12-2021 12:36:40 - crawler.spider.Crawl - INFO --> Downloaded chapter: 43/100
+03-12-2021 12:36:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 44/100
+03-12-2021 12:37:05 - crawler.spider.Crawl - INFO --> Downloaded chapter: 45/100
+03-12-2021 12:37:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 46/100
+03-12-2021 12:37:26 - crawler.spider.Crawl - INFO --> Downloaded chapter: 47/100
+03-12-2021 12:37:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 48/100
+03-12-2021 12:37:56 - crawler.spider.Crawl - INFO --> Downloaded chapter: 49/100
+03-12-2021 12:38:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 50/100
+03-12-2021 12:38:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 51/100
+03-12-2021 12:38:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 52/100
+03-12-2021 12:38:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 53/100
+03-12-2021 12:38:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 54/100
+03-12-2021 12:39:07 - crawler.spider.Crawl - INFO --> Downloaded chapter: 55/100
+03-12-2021 12:39:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 56/100
+03-12-2021 12:39:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 57/100
+03-12-2021 12:39:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 58/100
+03-12-2021 12:39:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 59/100
+03-12-2021 12:40:07 - crawler.spider.Crawl - INFO --> Downloaded chapter: 60/100
+03-12-2021 12:40:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 61/100
+03-12-2021 12:40:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 62/100
+03-12-2021 12:40:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 63/100
+03-12-2021 12:40:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 64/100
+03-12-2021 12:41:10 - crawler.spider.Crawl - INFO --> Downloaded chapter: 65/100
+03-12-2021 12:41:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 66/100
+03-12-2021 12:41:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 67/100
+03-12-2021 12:41:56 - crawler.spider.Crawl - INFO --> Downloaded chapter: 68/100
+03-12-2021 12:42:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 69/100
+03-12-2021 12:42:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 70/100
+03-12-2021 12:42:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 71/100
+03-12-2021 12:42:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 72/100
+03-12-2021 12:42:55 - crawler.spider.Crawl - INFO --> Downloaded chapter: 73/100
+03-12-2021 12:43:18 - crawler.spider.Crawl - INFO --> Downloaded chapter: 74/100
+03-12-2021 12:43:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 75/100
+03-12-2021 12:43:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 76/100
+03-12-2021 12:43:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 77/100
+03-12-2021 12:44:10 - crawler.spider.Crawl - INFO --> Downloaded chapter: 78/100
+03-12-2021 12:44:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 79/100
+03-12-2021 12:44:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 80/100
+03-12-2021 12:44:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 81/100
+03-12-2021 12:44:56 - crawler.spider.Crawl - INFO --> Downloaded chapter: 82/100
+03-12-2021 12:45:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 83/100
+03-12-2021 12:45:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 84/100
+03-12-2021 12:45:34 - crawler.spider.Crawl - INFO --> Downloaded chapter: 85/100
+03-12-2021 12:45:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 86/100
+03-12-2021 12:46:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 87/100
+03-12-2021 12:46:23 - crawler.spider.Crawl - INFO --> Downloaded chapter: 88/100
+03-12-2021 12:46:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 89/100
+03-12-2021 12:46:46 - crawler.spider.Crawl - INFO --> Downloaded chapter: 90/100
+03-12-2021 12:46:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 91/100
+03-12-2021 12:47:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 92/100
+03-12-2021 12:47:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 93/100
+03-12-2021 12:47:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 94/100
+03-12-2021 12:47:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 95/100
+03-12-2021 12:48:02 - crawler.spider.Crawl - INFO --> Downloaded chapter: 96/100
+03-12-2021 12:48:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 97/100
+03-12-2021 12:48:26 - crawler.spider.Crawl - INFO --> Downloaded chapter: 98/100
+03-12-2021 12:48:41 - crawler.spider.Crawl - INFO --> Downloaded chapter: 99/100
+03-12-2021 12:48:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 100/100
+03-12-2021 12:48:56 - crawler.main - INFO --> Done crawling!
+03-12-2021 12:48:56 - crawler.utils.timeit - INFO --> "main" took: 1306.1079535484314 secs
+
+03-12-2021 21:21:04 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+03-12-2021 21:21:06 - crawler.main - INFO --> Title: Kingdom (0 - 11)
+03-12-2021 21:21:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/11
+03-12-2021 21:21:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/11
+03-12-2021 21:22:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/11
+03-12-2021 21:22:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/11
+03-12-2021 21:22:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/11
+03-12-2021 21:22:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/11
+03-12-2021 21:22:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/11
+03-12-2021 21:23:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/11
+03-12-2021 21:23:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/11
+03-12-2021 21:23:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/11
+03-12-2021 21:23:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/11
+03-12-2021 21:23:49 - crawler.main - INFO --> Uploaded metadata of manga
+03-12-2021 21:23:54 - crawler.main - INFO --> Updated global metadata index
+03-12-2021 21:23:54 - crawler.main - INFO --> Done crawling!
+03-12-2021 21:23:54 - crawler.utils.timeit - INFO --> "main" took: 169.2413477897644 secs
+
+04-12-2021 00:07:36 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+04-12-2021 00:07:37 - crawler.main - INFO --> Title: Kingdom (0 - 4)
+04-12-2021 00:08:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/4
+04-12-2021 00:08:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/4
+04-12-2021 00:08:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/4
+04-12-2021 00:08:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/4
+04-12-2021 00:08:51 - crawler.main - INFO --> Uploaded metadata of manga
+04-12-2021 00:08:55 - crawler.main - INFO --> Updated global metadata index
+04-12-2021 00:08:55 - crawler.main - INFO --> Done crawling!
+04-12-2021 00:08:55 - crawler.utils.timeit - INFO --> "main" took: 79.44179844856262 secs
+
+04-12-2021 00:18:01 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+04-12-2021 00:18:03 - crawler.main - INFO --> Title: Kingdom (0 - 2)
+04-12-2021 00:18:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/2
+04-12-2021 00:19:07 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/2
+04-12-2021 00:19:09 - crawler.main - INFO --> Uploaded metadata of manga
+04-12-2021 00:19:13 - crawler.main - INFO --> Updated global metadata index
+04-12-2021 00:19:13 - crawler.main - INFO --> Done crawling!
+04-12-2021 00:19:13 - crawler.utils.timeit - INFO --> "main" took: 72.1850836277008 secs
+
+04-12-2021 00:22:58 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-qi951517
+04-12-2021 00:22:59 - crawler.main - INFO --> Title: Kingdom (0 - 2)
+04-12-2021 00:23:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/2
+04-12-2021 00:23:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/2
+04-12-2021 00:23:45 - crawler.main - INFO --> Uploaded metadata of manga
+04-12-2021 00:23:49 - crawler.main - INFO --> Updated global metadata index
+04-12-2021 00:23:49 - crawler.main - INFO --> Done crawling!
+04-12-2021 00:23:49 - crawler.utils.timeit - INFO --> "main" took: 51.341795682907104 secs
+
+05-12-2021 01:04:51 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+05-12-2021 01:04:52 - crawler.main - INFO --> Title: Solo Leveling (0 - -1)
+05-12-2021 01:07:14 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+05-12-2021 01:07:16 - crawler.main - INFO --> Title: Solo Leveling (0 - 180)
+05-12-2021 01:07:51 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/180
+05-12-2021 01:08:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/180
+05-12-2021 01:08:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/180
+05-12-2021 01:08:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/180
+05-12-2021 01:08:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/180
+05-12-2021 01:09:05 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/180
+05-12-2021 01:09:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/180
+05-12-2021 01:09:41 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/180
+05-12-2021 01:10:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/180
+05-12-2021 01:10:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/180
+05-12-2021 01:10:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/180
+05-12-2021 01:10:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 12/180
+05-12-2021 01:11:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 13/180
+05-12-2021 01:11:23 - crawler.spider.Crawl - INFO --> Downloaded chapter: 14/180
+05-12-2021 01:11:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 15/180
+05-12-2021 01:12:02 - crawler.spider.Crawl - INFO --> Downloaded chapter: 16/180
+05-12-2021 01:12:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 17/180
+05-12-2021 01:13:16 - crawler.spider.Crawl - INFO --> Downloaded chapter: 18/180
+05-12-2021 01:13:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 19/180
+05-12-2021 01:13:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 20/180
+05-12-2021 01:14:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 21/180
+05-12-2021 01:14:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 22/180
+05-12-2021 01:15:05 - crawler.spider.Crawl - INFO --> Downloaded chapter: 23/180
+05-12-2021 01:15:26 - crawler.spider.Crawl - INFO --> Downloaded chapter: 24/180
+05-12-2021 01:15:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 25/180
+05-12-2021 01:16:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 26/180
+05-12-2021 01:16:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 27/180
+05-12-2021 01:16:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 28/180
+05-12-2021 01:17:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 29/180
+05-12-2021 01:17:44 - crawler.spider.Crawl - INFO --> Downloaded chapter: 30/180
+05-12-2021 01:18:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 31/180
+05-12-2021 01:18:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 32/180
+05-12-2021 01:18:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 33/180
+05-12-2021 01:19:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 34/180
+05-12-2021 01:19:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 35/180
+05-12-2021 01:20:10 - crawler.spider.Crawl - INFO --> Downloaded chapter: 36/180
+05-12-2021 01:20:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 37/180
+05-12-2021 01:20:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 38/180
+05-12-2021 01:21:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 39/180
+05-12-2021 01:21:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 40/180
+05-12-2021 01:21:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 41/180
+05-12-2021 01:22:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 42/180
+05-12-2021 01:22:46 - crawler.spider.Crawl - INFO --> Downloaded chapter: 43/180
+05-12-2021 01:23:23 - crawler.spider.Crawl - INFO --> Downloaded chapter: 44/180
+05-12-2021 01:23:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 45/180
+05-12-2021 01:24:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 46/180
+05-12-2021 01:24:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 47/180
+05-12-2021 01:24:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 48/180
+05-12-2021 01:25:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 49/180
+05-12-2021 01:25:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 50/180
+05-12-2021 01:25:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 51/180
+05-12-2021 01:26:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 52/180
+05-12-2021 01:26:46 - crawler.spider.Crawl - INFO --> Downloaded chapter: 53/180
+05-12-2021 01:27:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 54/180
+05-12-2021 01:28:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 55/180
+05-12-2021 01:28:41 - crawler.spider.Crawl - INFO --> Downloaded chapter: 56/180
+05-12-2021 01:29:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 57/180
+05-12-2021 01:29:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 58/180
+05-12-2021 01:29:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 59/180
+05-12-2021 01:30:18 - crawler.spider.Crawl - INFO --> Downloaded chapter: 60/180
+05-12-2021 01:30:44 - crawler.spider.Crawl - INFO --> Downloaded chapter: 61/180
+05-12-2021 01:31:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 62/180
+05-12-2021 01:31:26 - crawler.spider.Crawl - INFO --> Downloaded chapter: 63/180
+05-12-2021 01:31:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 64/180
+05-12-2021 01:32:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 65/180
+05-12-2021 01:32:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 66/180
+05-12-2021 01:33:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 67/180
+05-12-2021 01:33:40 - crawler.spider.Crawl - INFO --> Downloaded chapter: 68/180
+05-12-2021 01:34:06 - crawler.spider.Crawl - INFO --> Downloaded chapter: 69/180
+05-12-2021 01:34:40 - crawler.spider.Crawl - INFO --> Downloaded chapter: 70/180
+05-12-2021 01:35:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 71/180
+05-12-2021 01:35:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 72/180
+05-12-2021 01:36:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 73/180
+05-12-2021 01:36:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 74/180
+05-12-2021 01:36:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 75/180
+05-12-2021 01:37:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 76/180
+05-12-2021 01:37:44 - crawler.spider.Crawl - INFO --> Downloaded chapter: 77/180
+05-12-2021 01:38:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 78/180
+05-12-2021 01:38:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 79/180
+05-12-2021 01:39:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 80/180
+05-12-2021 01:39:37 - crawler.spider.Crawl - INFO --> Downloaded chapter: 81/180
+05-12-2021 01:40:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 82/180
+05-12-2021 01:40:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 83/180
+05-12-2021 01:40:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 84/180
+05-12-2021 01:41:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 85/180
+05-12-2021 01:41:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 86/180
+05-12-2021 01:42:10 - crawler.spider.Crawl - INFO --> Downloaded chapter: 87/180
+05-12-2021 01:42:34 - crawler.spider.Crawl - INFO --> Downloaded chapter: 88/180
+05-12-2021 01:42:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 89/180
+05-12-2021 01:43:37 - crawler.spider.Crawl - INFO --> Downloaded chapter: 90/180
+05-12-2021 01:43:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 91/180
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:44:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 92/180
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:15 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:45:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 93/180
+05-12-2021 01:46:26 - crawler.spider.Crawl - INFO --> Downloaded chapter: 94/180
+05-12-2021 01:46:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 95/180
+05-12-2021 01:47:16 - crawler.spider.Crawl - INFO --> Downloaded chapter: 96/180
+05-12-2021 01:48:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 97/180
+05-12-2021 01:49:10 - crawler.spider.Crawl - INFO --> Downloaded chapter: 98/180
+05-12-2021 01:50:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 99/180
+05-12-2021 01:51:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 100/180
+05-12-2021 01:52:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 101/180
+05-12-2021 01:52:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 102/180
+05-12-2021 01:53:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:53:19 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:54:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 103/180
+05-12-2021 01:55:28 - crawler.spider.Crawl - INFO --> Downloaded chapter: 104/180
+05-12-2021 01:56:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 105/180
+05-12-2021 01:56:57 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:56:57 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:56:57 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:57:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 106/180
+05-12-2021 01:58:25 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:58:25 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:58:25 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:58:25 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:58:25 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 01:59:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 107/180
+05-12-2021 01:59:45 - crawler.spider.Crawl - ERROR --> Timeout
+05-12-2021 02:00:41 - crawler.spider.Crawl - INFO --> Downloaded chapter: 108/180
+05-12-2021 02:01:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 109/180
+05-12-2021 02:01:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 110/180
+05-12-2021 02:02:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 111/180
+05-12-2021 02:02:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 112/180
+05-12-2021 02:03:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 113/180
+05-12-2021 02:04:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 114/180
+05-12-2021 02:04:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 115/180
+05-12-2021 02:04:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 116/180
+05-12-2021 02:05:01 - crawler.spider.Crawl - INFO --> Downloaded chapter: 117/180
+05-12-2021 02:05:34 - crawler.spider.Crawl - INFO --> Downloaded chapter: 118/180
+05-12-2021 02:06:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 119/180
+05-12-2021 02:06:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 120/180
+05-12-2021 02:06:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 121/180
+05-12-2021 02:07:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 122/180
+05-12-2021 02:09:10 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+05-12-2021 02:09:11 - crawler.main - INFO --> Title: Solo Leveling (150 - 180)
+05-12-2021 02:09:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 151/30
+05-12-2021 02:09:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 152/30
+05-12-2021 02:10:26 - crawler.spider.Crawl - INFO --> Downloaded chapter: 153/30
+05-12-2021 02:11:01 - crawler.spider.Crawl - INFO --> Downloaded chapter: 154/30
+05-12-2021 02:11:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 155/30
+05-12-2021 02:11:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 156/30
+05-12-2021 02:12:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 157/30
+05-12-2021 02:12:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 158/30
+05-12-2021 02:13:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 159/30
+05-12-2021 02:13:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 160/30
+05-12-2021 02:13:44 - crawler.spider.Crawl - INFO --> Downloaded chapter: 161/30
+05-12-2021 02:14:28 - crawler.spider.Crawl - INFO --> Downloaded chapter: 162/30
+05-12-2021 02:14:50 - crawler.spider.Crawl - INFO --> Downloaded chapter: 163/30
+05-12-2021 02:15:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 164/30
+05-12-2021 02:15:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 165/30
+05-12-2021 02:16:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 166/30
+05-12-2021 02:16:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 167/30
+05-12-2021 02:16:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 168/30
+05-12-2021 02:17:06 - crawler.spider.Crawl - INFO --> Downloaded chapter: 169/30
+05-12-2021 02:17:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 170/30
+05-12-2021 02:17:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 171/30
+05-12-2021 02:18:07 - crawler.spider.Crawl - INFO --> Downloaded chapter: 172/30
+05-12-2021 02:18:37 - crawler.spider.Crawl - INFO --> Downloaded chapter: 173/30
+05-12-2021 02:19:34 - crawler.spider.Crawl - INFO --> Downloaded chapter: 174/30
+05-12-2021 02:20:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 175/30
+05-12-2021 02:20:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 176/30
+05-12-2021 02:20:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 177/30
+05-12-2021 02:21:26 - crawler.spider.Crawl - INFO --> Downloaded chapter: 178/30
+05-12-2021 02:22:05 - crawler.spider.Crawl - INFO --> Downloaded chapter: 179/30
+05-12-2021 02:22:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 180/30
+05-12-2021 02:22:42 - crawler.main - INFO --> Uploaded metadata of manga
+05-12-2021 02:22:46 - crawler.main - INFO --> Updated global metadata index
+05-12-2021 02:22:46 - crawler.main - INFO --> Done crawling!
+05-12-2021 02:22:46 - crawler.utils.timeit - INFO --> "main" took: 816.0860695838928 secs
+
+08-12-2021 23:11:08 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+08-12-2021 23:11:09 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+08-12-2021 23:11:47 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+08-12-2021 23:11:48 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+08-12-2021 23:12:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+08-12-2021 23:12:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/181
+08-12-2021 23:13:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/181
+08-12-2021 23:13:41 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/181
+08-12-2021 23:13:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/181
+08-12-2021 23:14:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/181
+08-12-2021 23:14:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/181
+08-12-2021 23:14:58 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:15:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/181
+08-12-2021 23:15:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/181
+08-12-2021 23:16:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/181
+08-12-2021 23:16:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/181
+08-12-2021 23:17:18 - crawler.spider.Crawl - INFO --> Downloaded chapter: 12/181
+08-12-2021 23:17:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 13/181
+08-12-2021 23:18:16 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+08-12-2021 23:18:17 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+08-12-2021 23:18:56 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+08-12-2021 23:19:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/181
+08-12-2021 23:19:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/181
+08-12-2021 23:19:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/181
+08-12-2021 23:20:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/181
+08-12-2021 23:20:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/181
+08-12-2021 23:21:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/181
+08-12-2021 23:21:24 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:21:24 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:21:24 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:21:27 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:21:27 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:21:28 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:21:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/181
+08-12-2021 23:22:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/181
+08-12-2021 23:22:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/181
+08-12-2021 23:23:04 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:23:05 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:23:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/181
+08-12-2021 23:23:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 12/181
+08-12-2021 23:24:11 - crawler.spider.Crawl - INFO --> Downloaded chapter: 13/181
+08-12-2021 23:24:34 - crawler.spider.Crawl - INFO --> Downloaded chapter: 14/181
+08-12-2021 23:25:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 15/181
+08-12-2021 23:25:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 16/181
+08-12-2021 23:25:50 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:25:50 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:25:50 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:25:53 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:25:53 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:25:53 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:26:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 17/181
+08-12-2021 23:26:30 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:26:33 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:26:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 18/181
+08-12-2021 23:27:26 - crawler.spider.Crawl - INFO --> Downloaded chapter: 19/181
+08-12-2021 23:27:51 - crawler.spider.Crawl - INFO --> Downloaded chapter: 20/181
+08-12-2021 23:28:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 21/181
+08-12-2021 23:28:36 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:28:36 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:28:39 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:28:40 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:29:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 22/181
+08-12-2021 23:29:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 23/181
+08-12-2021 23:29:55 - crawler.spider.Crawl - INFO --> Downloaded chapter: 24/181
+08-12-2021 23:30:10 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:30:10 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:30:10 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:30:10 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:30:11 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:30:12 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:30:13 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:30:17 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:30:37 - crawler.spider.Crawl - INFO --> Downloaded chapter: 25/181
+08-12-2021 23:30:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 26/181
+08-12-2021 23:31:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 27/181
+08-12-2021 23:32:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 28/181
+08-12-2021 23:32:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 29/181
+08-12-2021 23:32:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 30/181
+08-12-2021 23:33:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 31/181
+08-12-2021 23:33:42 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:33:45 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:34:01 - crawler.spider.Crawl - INFO --> Downloaded chapter: 32/181
+08-12-2021 23:34:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 33/181
+08-12-2021 23:34:51 - crawler.spider.Crawl - INFO --> Downloaded chapter: 34/181
+08-12-2021 23:35:23 - crawler.spider.Crawl - INFO --> Downloaded chapter: 35/181
+08-12-2021 23:35:56 - crawler.spider.Crawl - INFO --> Downloaded chapter: 36/181
+08-12-2021 23:36:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 37/181
+08-12-2021 23:37:01 - crawler.spider.Crawl - INFO --> Downloaded chapter: 38/181
+08-12-2021 23:37:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 39/181
+08-12-2021 23:37:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:37:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:37:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:37:45 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:37:48 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:37:49 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:38:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 40/181
+08-12-2021 23:38:40 - crawler.spider.Crawl - INFO --> Downloaded chapter: 41/181
+08-12-2021 23:39:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 42/181
+08-12-2021 23:39:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 43/181
+08-12-2021 23:39:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 44/181
+08-12-2021 23:40:18 - crawler.spider.Crawl - INFO --> Downloaded chapter: 45/181
+08-12-2021 23:40:55 - crawler.spider.Crawl - INFO --> Downloaded chapter: 46/181
+08-12-2021 23:41:16 - crawler.spider.Crawl - INFO --> Downloaded chapter: 47/181
+08-12-2021 23:41:32 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:41:36 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:41:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 48/181
+08-12-2021 23:42:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 49/181
+08-12-2021 23:42:37 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:42:37 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:42:39 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:42:43 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:43:01 - crawler.spider.Crawl - INFO --> Downloaded chapter: 50/181
+08-12-2021 23:43:16 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:43:16 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:43:16 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:43:17 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:43:18 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:43:28 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:43:51 - crawler.spider.Crawl - INFO --> Downloaded chapter: 51/181
+08-12-2021 23:44:06 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:44:06 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:44:06 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:44:08 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:44:09 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:44:09 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:44:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 52/181
+08-12-2021 23:44:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 53/181
+08-12-2021 23:45:13 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:45:13 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:45:13 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:45:13 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:45:13 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:45:13 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:45:13 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:45:13 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:45:13 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:45:14 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:45:15 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:45:15 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:45:16 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:45:16 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:45:16 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:45:17 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:45:17 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:45:18 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:45:46 - crawler.spider.Crawl - INFO --> Downloaded chapter: 54/181
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:02 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:18 - crawler.spider.Fetch - ERROR --> Image Content: 
+Retry Failed
+08-12-2021 23:46:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 55/181
+08-12-2021 23:47:02 - crawler.spider.Crawl - INFO --> Downloaded chapter: 56/181
+08-12-2021 23:47:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 57/181
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:45 - crawler.spider.Fetch - ERROR --> Image Content: Timeout Retrying
+08-12-2021 23:47:50 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:50 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:50 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:50 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:51 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:51 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:51 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:51 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:52 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:53 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:54 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:55 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:56 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+08-12-2021 23:47:58 - crawler.spider.Fetch - INFO --> Image Content: Retry Success
+09-12-2021 00:10:04 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 00:10:10 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 00:11:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+09-12-2021 00:11:34 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/181
+09-12-2021 00:11:56 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/181
+09-12-2021 00:12:37 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/181
+09-12-2021 00:13:18 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/181
+09-12-2021 00:14:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/181
+09-12-2021 00:14:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/181
+09-12-2021 00:15:41 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/181
+09-12-2021 00:16:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/181
+09-12-2021 00:17:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/181
+09-12-2021 00:18:02 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/181
+09-12-2021 00:18:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 12/181
+09-12-2021 00:19:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 13/181
+09-12-2021 00:20:06 - crawler.spider.Crawl - INFO --> Downloaded chapter: 14/181
+09-12-2021 00:20:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 15/181
+09-12-2021 00:21:23 - crawler.spider.Crawl - INFO --> Downloaded chapter: 16/181
+09-12-2021 00:22:28 - crawler.spider.Crawl - INFO --> Downloaded chapter: 17/181
+09-12-2021 00:23:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 18/181
+09-12-2021 00:24:00 - crawler.spider.Fetch - ERROR --> Image Content: Server disconnected
+Traceback (most recent call last):
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/spider/spider.py", line 26, in async_fetch
+    async with session.get(url, timeout=200) as response:
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client_reqrep.py", line 898, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+09-12-2021 00:24:26 - crawler.spider.Crawl - INFO --> Downloaded chapter: 19/181
+09-12-2021 00:25:28 - crawler.spider.Crawl - INFO --> Downloaded chapter: 20/181
+09-12-2021 00:26:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 21/181
+09-12-2021 00:26:32 - crawler.spider.Fetch - ERROR --> Image Content: Server disconnected
+Traceback (most recent call last):
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/spider/spider.py", line 26, in async_fetch
+    async with session.get(url, timeout=200) as response:
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client_reqrep.py", line 898, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+09-12-2021 00:26:32 - crawler.spider.Fetch - ERROR --> Image Content: Server disconnected
+Traceback (most recent call last):
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/spider/spider.py", line 26, in async_fetch
+    async with session.get(url, timeout=200) as response:
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client_reqrep.py", line 898, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+09-12-2021 00:27:16 - crawler.spider.Crawl - INFO --> Downloaded chapter: 22/181
+09-12-2021 00:29:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 23/181
+09-12-2021 00:30:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 24/181
+09-12-2021 00:31:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 25/181
+09-12-2021 00:31:18 - crawler.spider.Fetch - ERROR --> Image Content: Server disconnected
+Traceback (most recent call last):
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/spider/spider.py", line 26, in async_fetch
+    async with session.get(url, timeout=200) as response:
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client_reqrep.py", line 898, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+09-12-2021 00:31:40 - crawler.spider.Crawl - INFO --> Downloaded chapter: 26/181
+09-12-2021 00:33:05 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 00:33:07 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 00:33:56 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+09-12-2021 00:34:18 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/181
+09-12-2021 00:34:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/181
+09-12-2021 00:35:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/181
+09-12-2021 00:35:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/181
+09-12-2021 00:36:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/181
+09-12-2021 00:36:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/181
+09-12-2021 00:37:04 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:37:04 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:37:04 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:37:04 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:37:07 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:37:09 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:37:09 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:37:11 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:37:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/181
+09-12-2021 00:38:08 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:38:08 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:38:09 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:38:10 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:38:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/181
+09-12-2021 00:39:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/181
+09-12-2021 00:40:07 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/181
+09-12-2021 00:40:27 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:40:28 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:40:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 12/181
+09-12-2021 00:41:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 13/181
+09-12-2021 00:41:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 14/181
+09-12-2021 00:42:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 15/181
+09-12-2021 00:43:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 16/181
+09-12-2021 00:43:45 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:43:49 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:44:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 17/181
+09-12-2021 00:44:39 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:44:41 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:45:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 18/181
+09-12-2021 00:45:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 19/181
+09-12-2021 00:46:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 20/181
+09-12-2021 00:46:38 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:46:39 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:46:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 21/181
+09-12-2021 00:47:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 22/181
+09-12-2021 00:47:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:47:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:48:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:48:07 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:48:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 23/181
+09-12-2021 00:49:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 24/181
+09-12-2021 00:50:04 - crawler.spider.Crawl - INFO --> Downloaded chapter: 25/181
+09-12-2021 00:50:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 26/181
+09-12-2021 00:51:11 - crawler.spider.Crawl - INFO --> Downloaded chapter: 27/181
+09-12-2021 00:51:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 28/181
+09-12-2021 00:52:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 29/181
+09-12-2021 00:52:32 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:52:35 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:52:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 30/181
+09-12-2021 00:53:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 31/181
+09-12-2021 00:54:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 32/181
+09-12-2021 00:54:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 33/181
+09-12-2021 00:55:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 34/181
+09-12-2021 00:55:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:55:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:55:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:55:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:55:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:55:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:56:00 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:56:01 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:56:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:56:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:56:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:56:04 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:56:28 - crawler.spider.Crawl - INFO --> Downloaded chapter: 35/181
+09-12-2021 00:57:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 36/181
+09-12-2021 00:57:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 37/181
+09-12-2021 00:58:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 38/181
+09-12-2021 00:58:44 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:58:44 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:58:44 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:58:44 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:58:45 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:58:45 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:58:48 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:58:56 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:59:21 - crawler.spider.Crawl - INFO --> Downloaded chapter: 39/181
+09-12-2021 00:59:42 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:59:42 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:59:42 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 00:59:44 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:59:45 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 00:59:46 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:00:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 40/181
+09-12-2021 01:00:32 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:00:32 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:00:33 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:00:33 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:00:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 41/181
+09-12-2021 01:01:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 42/181
+09-12-2021 01:02:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 43/181
+09-12-2021 01:02:39 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:02:39 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:02:40 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:02:45 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:03:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 44/181
+09-12-2021 01:03:30 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:03:32 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:03:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 45/181
+09-12-2021 01:04:19 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:04:22 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:04:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 46/181
+09-12-2021 01:05:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 47/181
+09-12-2021 01:06:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 48/181
+09-12-2021 01:06:46 - crawler.spider.Crawl - INFO --> Downloaded chapter: 49/181
+09-12-2021 01:07:06 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:13 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:07:34 - crawler.spider.Crawl - INFO --> Downloaded chapter: 50/181
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:54 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:07:56 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:07:56 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:07:56 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:07:56 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:07:58 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:07:58 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:07:59 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:00 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:01 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:01 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:01 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:03 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:03 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:04 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:05 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:05 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 51/181
+09-12-2021 01:08:53 - crawler.spider.Fetch - ERROR --> Image Content: Server disconnected
+Traceback (most recent call last):
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/spider/spider.py", line 26, in async_fetch
+    async with session.get(url, timeout=20) as response:
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/client_reqrep.py", line 898, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/home/shambu/Desktop/Dev/cpp-el/Misc/crawler/venv/lib/python3.8/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+09-12-2021 01:08:55 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:08:55 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:08:55 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:08:55 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:08:55 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:08:55 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:08:55 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:08:55 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:08:55 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:08:58 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:58 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:59 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:59 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:08:59 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:09:00 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:09:00 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:09:00 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:09:04 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:09:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 52/181
+09-12-2021 01:09:56 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:09:56 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 01:09:57 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:10:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 01:10:28 - crawler.spider.Crawl - INFO --> Downloaded chapter: 53/181
+09-12-2021 01:24:59 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:24:59 - crawler.utils.timeit - INFO --> "main" took: 0.00010085105895996094 secs
+
+09-12-2021 01:25:05 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:25:05 - crawler.utils.timeit - INFO --> "main" took: 0.00015544891357421875 secs
+
+09-12-2021 01:26:11 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:26:11 - crawler.utils.timeit - INFO --> "main" took: 0.00013208389282226562 secs
+
+09-12-2021 01:26:18 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:26:18 - crawler.utils.timeit - INFO --> "main" took: 0.00013327598571777344 secs
+
+09-12-2021 01:26:33 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:26:33 - crawler.utils.timeit - INFO --> "main" took: 0.00010085105895996094 secs
+
+09-12-2021 01:28:32 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:28:32 - crawler.utils.timeit - INFO --> "main" took: 0.0013058185577392578 secs
+
+09-12-2021 01:29:33 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:29:33 - crawler.utils.timeit - INFO --> "main" took: 0.0012094974517822266 secs
+
+09-12-2021 01:32:19 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:32:19 - crawler.utils.timeit - INFO --> "main" took: 0.001203775405883789 secs
+
+09-12-2021 01:32:33 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:32:33 - crawler.utils.timeit - INFO --> "main" took: 0.0012459754943847656 secs
+
+09-12-2021 01:36:49 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:36:51 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 01:37:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
