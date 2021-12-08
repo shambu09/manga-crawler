@@ -27,6 +27,8 @@ def main(url, start=0, end=-1):
     logger.info(f"Started crawling: {url}")
 
     title, res = Crawl.extract_index(url)
+
+    end = len(res) if end == -1 else end
     logger.info(f"Title: {title} ({start} - {end})")
 
     Google_Drive.PARENT_FOLDER_ID = Google_Drive.create_folder(
@@ -78,4 +80,5 @@ def main(url, start=0, end=-1):
 
 
 if __name__ == "__main__":
-    main("https://readmanganato.com/manga-qi951517", 0, 2)
+    main("https://readmanganato.com/manga-dr980474", 150, -1)
+    # main("https://readmanganato.com/manga-qi951517", 0, 2)
