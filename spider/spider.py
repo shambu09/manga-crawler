@@ -25,7 +25,6 @@ class Fetch:
 
         try:
             async with Fetch.SEM:
-                Fetch.logger.debug(f"Sem value: {Fetch.SEM._value}")
                 async with session.get(url, timeout=20) as response:
                     resp = await response.read()
 
