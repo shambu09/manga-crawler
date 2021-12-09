@@ -137,6 +137,7 @@ Google_Drive.init(ACCOUNT_SECRETS)
 import asyncio
 import aiohttp
 
+
 class N_Flawed_Async:
     @staticmethod
     async def request():
@@ -195,9 +196,9 @@ class N_Correct_Async:
 class N_Aoihttp_async:
     @staticmethod
     async def req(session):
-        async with session.get("https://www.google.com", timeout=25) as response:
-                return response.status
-            
+        async with session.get("https://www.google.com",
+                               timeout=25) as response:
+            return response.status
 
     @staticmethod
     async def req_all_aiohttp():
@@ -207,7 +208,7 @@ class N_Aoihttp_async:
                 task = asyncio.ensure_future(N_Aoihttp_async.req(session))
                 tasks.append(task)
 
-            return await asyncio.gather(*tasks)        
+            return await asyncio.gather(*tasks)
 
     @staticmethod
     def req_all_aiohttp_executor():
@@ -215,8 +216,21 @@ class N_Aoihttp_async:
         future = asyncio.ensure_future(N_Aoihttp_async.req_all_aiohttp())
         loop.run_until_complete(future)
         return future.result()
-        
-    
+
+
 # print(N_Flawed_Async.req_all_p())
-print(N_Correct_Async.req_all_p_executor())
+# print(N_Correct_Async.req_all_p_executor())
 # print(N_Aoihttp_async.req_all_aiohttp_executor())
+#----------------------------------------------------------------------------------
+from utils import retry
+
+
+@retry(method="dummy content", max_retries=3, delay=0.1)
+def dummy(_type=""):
+    print("Success")
+
+
+dummy(_type="Content")
+print()
+dummy(_type="Image")
+#----------------------------------------------------------------------------------

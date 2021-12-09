@@ -9,6 +9,7 @@ import bs4
 import requests
 from aiohttp import ClientResponseError, ClientSession, TCPConnector
 from gdrive import Google_Drive
+from utils import retry, retry_async
 
 
 class Fetch:
@@ -17,36 +18,12 @@ class Fetch:
     SEM = asyncio.Semaphore(20)
 
     @staticmethod
-    async def async_fetch(session, url, _type, tries=0):
-        if tries > Fetch.MAX_TRIES:
-            raise Exception(
-                f"Error: Retry limit exceeded (retry: #{tries - 1})")
-
+    @retry_async("Fetch", max_retries=MAX_TRIES, delay=0)
+    async def async_fetch(session, url, _type=""):
         resp = None
-
-        try:
-            async with Fetch.SEM:
-                async with session.get(url, timeout=20) as response:
-                    resp = await response.read()
-
-        except ClientResponseError as e:
-            Fetch.logger.error(f"{_type}: {e}")
-
-        except asyncio.TimeoutError as e:
-            Fetch.logger.warning(
-                f"{_type}: Timeout, Retrying (retry: #{tries})")
-            try:
-                resp = await Fetch.async_fetch(session, url, _type, tries + 1)
-            except Exception as e:
-                Fetch.logger.error(f"{_type}: Retry Failed --> {e}")
-            else:
-                Fetch.logger.info(
-                    f"{_type}: Retry Successful (retry: #{tries})")
-                return resp
-
-        except Exception as e:
-            Fetch.logger.error(f"{_type}: {e}", exc_info=True)
-
+        async with Fetch.SEM:
+            async with session.get(url, timeout=20) as response:
+                resp = await response.read()
         return resp
 
     @staticmethod
@@ -58,7 +35,7 @@ class Fetch:
                                  connector=connector) as session:
             for url in urls:
                 task = asyncio.ensure_future(
-                    Fetch.async_fetch(session, url, _type))
+                    Fetch.async_fetch(session, url, _type=_type))
                 tasks.append(task)
 
             responses = await asyncio.gather(*tasks)
@@ -135,6 +112,7 @@ class Crawl:
         return chapters
 
     @staticmethod
+    @retry("Upload File to Drive", max_retries=5, delay=0.1)
     def threaded_upload_image(parent_id, name, res):
         _res = io.BytesIO(res)
         file_id = Google_Drive.create_file(name, parent_id, _res, "image/jpeg")
@@ -175,11 +153,10 @@ class Crawl:
             chapter["images_links"][i +
                                     1] = Google_Drive.get_public_url_file(_id)
 
-        Crawl.logger.info(
-            f"Downloaded chapter: {chapter['chapter']}/{Crawl.NUM}")
-
         c = gc.collect()
         Crawl.logger.debug(f"Garbage collector --> collected {c} objects")
+        Crawl.logger.info(
+            f"Downloaded chapter: {chapter['chapter']}/{Crawl.NUM}")
         return chapter
 
     @staticmethod
