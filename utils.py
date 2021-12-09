@@ -134,7 +134,7 @@ def retry_async(method, max_retries=5, delay=0):
                     )
 
                     if limit['delay'] > 0:
-                        asyncio.sleep(limit["delay"])
+                        await asyncio.sleep(limit["delay"])
 
                 else:
                     logging.getLogger("crawler.utils.retry").error(

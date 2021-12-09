@@ -70,8 +70,10 @@ TODO: Write tests for the crawler.
 
 from asyncio import tasks
 from concurrent import futures
+from concurrent.futures import thread
 import json
 import os
+from attr import astuple
 
 import requests
 from dotenv import load_dotenv
@@ -222,15 +224,50 @@ class N_Aoihttp_async:
 # print(N_Correct_Async.req_all_p_executor())
 # print(N_Aoihttp_async.req_all_aiohttp_executor())
 #----------------------------------------------------------------------------------
-from utils import retry
+from utils import retry, retry_async
 
 
-@retry(method="dummy content", max_retries=3, delay=0.1)
-def dummy(_type=""):
-    print("Success")
+# @retry(method="dummy content", max_retries=3, delay=0.1)
+# def dummy(_type=""):
+#     print("Success")
 
 
-dummy(_type="Content")
-print()
-dummy(_type="Image")
+# dummy(_type="Content")
+# print()
+# dummy(_type="Image")
+#----------------------------------------------------------------------------------
+# TODO: Write tests for retry_async
+# TODO: Custom Viewer for Manhwa
+# TODO: httpobject for drive auth
+# TODO: async.run_in_exector for drive uploads.
+
+import time
+import threading
+
+t = 0
+res = 0
+
+def tick():
+    global t
+    while True:
+        time.sleep(1)
+        print(t, end="\t", flush=True)
+        t += 1
+
+
+@retry_async("dummy", max_retries=5, delay=1)
+async def test_retry_async():
+    global res
+    res += 1
+    if res > 5:
+        print("Success")
+    else:
+        print("Failed")
+        raise Exception("Failed")
+
+# x = threading.Thread(target=tick)
+# x.start()
+# task = asyncio.ensure_future(test_retry_async())
+# asyncio.get_event_loop().run_until_complete(task)
+# print(task.result())
 #----------------------------------------------------------------------------------
