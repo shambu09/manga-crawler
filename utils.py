@@ -1,8 +1,6 @@
+import asyncio
 import logging
 import time
-import asyncio
-
-from pyasn1_modules.rfc2459 import Time
 
 
 def get_logger():
