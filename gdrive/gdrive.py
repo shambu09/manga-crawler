@@ -60,6 +60,10 @@ class Google_Drive(Authentication):
         cls.drive, cls.gauth = cls.get_drive_service()
 
     @classmethod
+    def refresh(cls):
+        cls.drive, cls.gauth = cls.get_drive_service()
+
+    @classmethod
     def find_folder_by_name(cls, name):
         folder_id = None
         for file in cls.drive.ListFile({

@@ -14,11 +14,11 @@ from utils import retry, retry_async
 
 class Fetch:
     logger = logging.getLogger("crawler.spider.Fetch")
-    MAX_TRIES = 7
+    MAX_TRIES = 13
     SEM = asyncio.Semaphore(20)
 
     @staticmethod
-    @retry_async("Fetch", max_retries=MAX_TRIES, delay=0)
+    @retry_async("Fetch", max_retries=MAX_TRIES, delay=0.01)
     async def async_fetch(session, url, _type=""):
         resp = None
         async with Fetch.SEM:
@@ -53,7 +53,7 @@ class Fetch:
 
 
 class Crawl:
-    THREADS = 30
+    THREADS = 25
     logger = logging.getLogger("crawler.spider.Crawl")
     NUM = None
 
@@ -130,6 +130,12 @@ class Crawl:
         }
 
         _id = chapter["chapter"]
+
+        if _id % 50 == 0:
+            Google_Drive.refresh()
+            Crawl.logger.debug(
+                f"Refreshed --> Drive Object is refreshed (#{_id})")
+
         resp = Fetch.fetch_resp(urls, headers=headers, _type="Image Content")
         Crawl.logger.debug(f"Fetched --> Chapter {_id}'s images")
 
