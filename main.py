@@ -36,6 +36,9 @@ def main(url, start=0, end=-1, _type="manga"):
         Google_Drive.PARENT_FOLDER_ID,
     )
 
+    logger.debug(
+        f"Created drive folder --> folder id: {Google_Drive.PARENT_FOLDER_ID}")
+
     pipe = Pipe([
         Crawl.extract_chapter_urls,
         Pipe.customize(start=start, end=end)(Crawl.custom_chapter_range),
@@ -52,7 +55,7 @@ def main(url, start=0, end=-1, _type="manga"):
         "type": _type,
         "chapters": out,
     }
-    
+
     chapter_meta = json.dumps(out, indent=6)
     chapter_meta = io.BytesIO(chapter_meta.encode())
 
@@ -62,6 +65,7 @@ def main(url, start=0, end=-1, _type="manga"):
         chapter_meta,
         "application/json",
     )
+    logger.debug(f"Created metadata drive file --> file id: {file_id}")
     logger.info(f"Uploaded metadata of manga")
 
     metadata = Google_Drive.download_json_file(METADATA_JSON)
@@ -77,7 +81,8 @@ def main(url, start=0, end=-1, _type="manga"):
     with open(f"metadata/{title}.json", "w") as f:
         json.dump(out, f, indent=6)
 
-    gc.collect()
+    c = gc.collect()
+    Crawl.logger.debug(f"Garbage collector --> collected {c} objects")
     logger.info("Done crawling!")
 
 

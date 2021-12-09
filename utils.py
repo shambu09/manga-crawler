@@ -13,7 +13,7 @@ def get_logger():
     fh.setLevel(logging.INFO)
 
     fh2 = logging.FileHandler("logs/crawler-error.log", mode="a")
-    fh2.setLevel(logging.WARNING)
+    fh2.setLevel(logging.ERROR)
 
     fh3 = logging.FileHandler("logs/crawler-debug.log", mode="a")
     fh3.setLevel(logging.DEBUG)
@@ -39,7 +39,7 @@ def timeit(func):
         start = time.time()
         tmp = func(*args, **kwargs)
         end = time.time()
-        logging.getLogger("crawler.utils.timeit").info(
+        logging.getLogger("crawler.utils.timeit").debug(
             f"\"{func.__name__}\" took: {end - start} secs\n")
         return tmp
 

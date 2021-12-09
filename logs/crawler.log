@@ -905,3 +905,268 @@ aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
 09-12-2021 01:36:49 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
 09-12-2021 01:36:51 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
 09-12-2021 01:37:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+09-12-2021 01:55:44 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 01:55:45 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 01:56:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+09-12-2021 01:56:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/181
+09-12-2021 01:57:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/181
+09-12-2021 01:57:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/181
+09-12-2021 01:58:00 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/181
+09-12-2021 01:58:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/181
+09-12-2021 02:02:25 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 02:02:26 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 02:03:14 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 02:03:14 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 02:03:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+09-12-2021 02:07:28 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 02:07:29 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 02:07:49 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 02:07:50 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 02:08:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+09-12-2021 02:08:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/181
+09-12-2021 02:09:05 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/181
+09-12-2021 02:09:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/181
+09-12-2021 02:09:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/181
+09-12-2021 02:10:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/181
+09-12-2021 02:11:02 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/181
+09-12-2021 02:11:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/181
+09-12-2021 02:12:23 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/181
+09-12-2021 02:12:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/181
+09-12-2021 02:13:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/181
+09-12-2021 02:13:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 12/181
+09-12-2021 02:14:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 13/181
+09-12-2021 02:15:02 - crawler.spider.Crawl - INFO --> Downloaded chapter: 14/181
+09-12-2021 02:15:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 15/181
+09-12-2021 02:16:06 - crawler.spider.Crawl - INFO --> Downloaded chapter: 16/181
+09-12-2021 02:17:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 17/181
+09-12-2021 02:17:46 - crawler.spider.Crawl - INFO --> Downloaded chapter: 18/181
+09-12-2021 02:18:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 19/181
+09-12-2021 02:19:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 20/181
+09-12-2021 02:19:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 21/181
+09-12-2021 02:20:09 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:20:10 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:20:34 - crawler.spider.Crawl - INFO --> Downloaded chapter: 22/181
+09-12-2021 02:21:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 23/181
+09-12-2021 02:21:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 24/181
+09-12-2021 02:22:12 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:22:15 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:22:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 25/181
+09-12-2021 02:23:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 26/181
+09-12-2021 02:23:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 27/181
+09-12-2021 02:24:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 28/181
+09-12-2021 02:24:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 29/181
+09-12-2021 02:25:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 30/181
+09-12-2021 02:26:09 - crawler.spider.Crawl - INFO --> Downloaded chapter: 31/181
+09-12-2021 02:26:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 32/181
+09-12-2021 02:27:16 - crawler.spider.Crawl - INFO --> Downloaded chapter: 33/181
+09-12-2021 02:27:50 - crawler.spider.Crawl - INFO --> Downloaded chapter: 34/181
+09-12-2021 02:28:30 - crawler.spider.Crawl - INFO --> Downloaded chapter: 35/181
+09-12-2021 02:28:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 36/181
+09-12-2021 02:29:28 - crawler.spider.Crawl - INFO --> Downloaded chapter: 37/181
+09-12-2021 02:30:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 38/181
+09-12-2021 02:30:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 39/181
+09-12-2021 02:31:23 - crawler.spider.Crawl - INFO --> Downloaded chapter: 40/181
+09-12-2021 02:31:55 - crawler.spider.Crawl - INFO --> Downloaded chapter: 41/181
+09-12-2021 02:32:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 42/181
+09-12-2021 02:33:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 43/181
+09-12-2021 02:33:40 - crawler.spider.Crawl - INFO --> Downloaded chapter: 44/181
+09-12-2021 02:34:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 45/181
+09-12-2021 02:34:42 - crawler.spider.Crawl - INFO --> Downloaded chapter: 46/181
+09-12-2021 02:35:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 47/181
+09-12-2021 02:35:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 48/181
+09-12-2021 02:36:07 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:36:08 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:36:28 - crawler.spider.Crawl - INFO --> Downloaded chapter: 49/181
+09-12-2021 02:37:02 - crawler.spider.Crawl - INFO --> Downloaded chapter: 50/181
+09-12-2021 02:37:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 51/181
+09-12-2021 02:38:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 52/181
+09-12-2021 02:39:02 - crawler.spider.Crawl - INFO --> Downloaded chapter: 53/181
+09-12-2021 02:39:39 - crawler.spider.Crawl - INFO --> Downloaded chapter: 54/181
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:39:59 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:20 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #1)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:41 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #2)
+09-12-2021 02:40:55 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:40:55 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:40:55 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:02 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #3)
+09-12-2021 02:41:02 - crawler.spider.Fetch - ERROR --> Image Content: Retry Failed --> exceptions must derive from BaseException
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #2)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #1)
+09-12-2021 02:41:02 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:41:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 55/181
+09-12-2021 02:41:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 56/181
+09-12-2021 02:42:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 57/181
+09-12-2021 02:42:44 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:42:46 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:43:10 - crawler.spider.Crawl - INFO --> Downloaded chapter: 58/181
+09-12-2021 02:43:30 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:43:31 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:43:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 59/181
+09-12-2021 02:44:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 60/181
+09-12-2021 02:45:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 61/181
+09-12-2021 02:45:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 62/181
+09-12-2021 02:46:36 - crawler.spider.Crawl - INFO --> Downloaded chapter: 63/181
+09-12-2021 02:47:14 - crawler.spider.Crawl - INFO --> Downloaded chapter: 64/181
+09-12-2021 02:47:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 65/181
+09-12-2021 02:48:31 - crawler.spider.Crawl - INFO --> Downloaded chapter: 66/181
+09-12-2021 02:49:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 67/181
+09-12-2021 02:56:43 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 02:56:44 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 02:57:25 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:57:28 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:57:50 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+09-12-2021 02:58:18 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/181
+09-12-2021 02:58:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/181
+09-12-2021 02:59:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/181
+09-12-2021 02:59:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/181
+09-12-2021 02:59:56 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/181
+09-12-2021 03:00:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/181
+09-12-2021 03:01:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/181
+09-12-2021 03:01:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/181
+09-12-2021 03:02:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/181
+09-12-2021 03:03:11 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/181
+09-12-2021 03:03:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 12/181
+09-12-2021 03:04:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 13/181
+09-12-2021 03:04:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 14/181
+09-12-2021 03:05:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 15/181
+09-12-2021 03:05:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 16/181
+09-12-2021 03:06:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 17/181
+09-12-2021 03:07:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 18/181
+09-12-2021 03:07:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 19/181
+09-12-2021 03:08:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 20/181
+09-12-2021 03:08:56 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 03:08:56 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 03:08:57 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 03:08:57 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 03:09:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 21/181
+09-12-2021 03:09:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 22/181
+09-12-2021 03:10:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 23/181
+09-12-2021 03:10:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 24/181
+09-12-2021 03:11:23 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 03:11:24 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 03:11:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 25/181
+09-12-2021 03:12:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 26/181
+09-12-2021 03:12:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 27/181
+09-12-2021 03:13:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 28/181
+09-12-2021 03:14:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 29/181
+09-12-2021 03:14:50 - crawler.spider.Crawl - INFO --> Downloaded chapter: 30/181
+09-12-2021 03:15:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 31/181
+09-12-2021 03:16:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 32/181
+09-12-2021 03:16:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 33/181
+09-12-2021 03:17:06 - crawler.spider.Crawl - INFO --> Downloaded chapter: 34/181
+09-12-2021 03:17:44 - crawler.spider.Crawl - INFO --> Downloaded chapter: 35/181

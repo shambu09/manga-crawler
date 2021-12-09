@@ -1,0 +1,155 @@
+09-12-2021 02:56:43 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-dr980474
+09-12-2021 02:56:44 - crawler.spider.Crawl - DEBUG --> Fetched --> Title: Solo Leveling --> Chapter Index Extracted --> 181 chapters found
+09-12-2021 02:56:44 - crawler.main - INFO --> Title: Solo Leveling (0 - 181)
+09-12-2021 02:56:46 - crawler.main - DEBUG --> Created drive folder --> folder id: 1NVKqHtDXg6mWxcxvJRW2PS7YbW77h3wC
+09-12-2021 02:56:46 - crawler.spider.Crawl - DEBUG --> Chapters 0-181 to fetch
+09-12-2021 02:56:55 - crawler.spider.Crawl - DEBUG --> Fetched --> 181 chapters --> Every chapter's image urls are extracted
+09-12-2021 02:57:25 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 02:57:28 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 02:57:28 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 1's images
+09-12-2021 02:57:50 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 1's images
+09-12-2021 02:57:50 - crawler.spider.Crawl - INFO --> Downloaded chapter: 1/181
+09-12-2021 02:57:50 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 44502 objects
+09-12-2021 02:57:59 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 2's images
+09-12-2021 02:58:18 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 2's images
+09-12-2021 02:58:18 - crawler.spider.Crawl - INFO --> Downloaded chapter: 2/181
+09-12-2021 02:58:18 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 2657 objects
+09-12-2021 02:58:22 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 3's images
+09-12-2021 02:58:33 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 3's images
+09-12-2021 02:58:33 - crawler.spider.Crawl - INFO --> Downloaded chapter: 3/181
+09-12-2021 02:58:33 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 5458 objects
+09-12-2021 02:58:42 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 4's images
+09-12-2021 02:59:03 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 4's images
+09-12-2021 02:59:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 4/181
+09-12-2021 02:59:03 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 6558 objects
+09-12-2021 02:59:12 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 5's images
+09-12-2021 02:59:27 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 5's images
+09-12-2021 02:59:27 - crawler.spider.Crawl - INFO --> Downloaded chapter: 5/181
+09-12-2021 02:59:27 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 9484 objects
+09-12-2021 02:59:40 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 6's images
+09-12-2021 02:59:56 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 6's images
+09-12-2021 02:59:56 - crawler.spider.Crawl - INFO --> Downloaded chapter: 6/181
+09-12-2021 02:59:56 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 6846 objects
+09-12-2021 03:00:08 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 7's images
+09-12-2021 03:00:25 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 7's images
+09-12-2021 03:00:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 7/181
+09-12-2021 03:00:26 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4083 objects
+09-12-2021 03:00:44 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 8's images
+09-12-2021 03:01:13 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 8's images
+09-12-2021 03:01:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 8/181
+09-12-2021 03:01:13 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4620 objects
+09-12-2021 03:01:29 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 9's images
+09-12-2021 03:01:57 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 9's images
+09-12-2021 03:01:57 - crawler.spider.Crawl - INFO --> Downloaded chapter: 9/181
+09-12-2021 03:01:57 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4898 objects
+09-12-2021 03:02:11 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 10's images
+09-12-2021 03:02:35 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 10's images
+09-12-2021 03:02:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 10/181
+09-12-2021 03:02:35 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4770 objects
+09-12-2021 03:02:47 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 11's images
+09-12-2021 03:03:11 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 11's images
+09-12-2021 03:03:11 - crawler.spider.Crawl - INFO --> Downloaded chapter: 11/181
+09-12-2021 03:03:11 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 6783 objects
+09-12-2021 03:03:25 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 12's images
+09-12-2021 03:03:43 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 12's images
+09-12-2021 03:03:43 - crawler.spider.Crawl - INFO --> Downloaded chapter: 12/181
+09-12-2021 03:03:43 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3513 objects
+09-12-2021 03:03:55 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 13's images
+09-12-2021 03:04:15 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 13's images
+09-12-2021 03:04:15 - crawler.spider.Crawl - INFO --> Downloaded chapter: 13/181
+09-12-2021 03:04:15 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4741 objects
+09-12-2021 03:04:20 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 14's images
+09-12-2021 03:04:45 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 14's images
+09-12-2021 03:04:45 - crawler.spider.Crawl - INFO --> Downloaded chapter: 14/181
+09-12-2021 03:04:45 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3119 objects
+09-12-2021 03:04:49 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 15's images
+09-12-2021 03:05:08 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 15's images
+09-12-2021 03:05:08 - crawler.spider.Crawl - INFO --> Downloaded chapter: 15/181
+09-12-2021 03:05:08 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 5500 objects
+09-12-2021 03:05:23 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 16's images
+09-12-2021 03:05:47 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 16's images
+09-12-2021 03:05:47 - crawler.spider.Crawl - INFO --> Downloaded chapter: 16/181
+09-12-2021 03:05:48 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3191 objects
+09-12-2021 03:06:02 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 17's images
+09-12-2021 03:06:32 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 17's images
+09-12-2021 03:06:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 17/181
+09-12-2021 03:06:32 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 5935 objects
+09-12-2021 03:06:47 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 18's images
+09-12-2021 03:07:17 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 18's images
+09-12-2021 03:07:17 - crawler.spider.Crawl - INFO --> Downloaded chapter: 18/181
+09-12-2021 03:07:17 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 6520 objects
+09-12-2021 03:07:29 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 19's images
+09-12-2021 03:07:54 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 19's images
+09-12-2021 03:07:54 - crawler.spider.Crawl - INFO --> Downloaded chapter: 19/181
+09-12-2021 03:07:54 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 8185 objects
+09-12-2021 03:08:09 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 20's images
+09-12-2021 03:08:35 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 20's images
+09-12-2021 03:08:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 20/181
+09-12-2021 03:08:36 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 9282 objects
+09-12-2021 03:08:56 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 03:08:56 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 03:08:57 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 03:08:57 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 03:08:57 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 21's images
+09-12-2021 03:09:20 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 21's images
+09-12-2021 03:09:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 21/181
+09-12-2021 03:09:21 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 2258 objects
+09-12-2021 03:09:28 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 22's images
+09-12-2021 03:09:49 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 22's images
+09-12-2021 03:09:49 - crawler.spider.Crawl - INFO --> Downloaded chapter: 22/181
+09-12-2021 03:09:49 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4510 objects
+09-12-2021 03:09:57 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 23's images
+09-12-2021 03:10:20 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 23's images
+09-12-2021 03:10:20 - crawler.spider.Crawl - INFO --> Downloaded chapter: 23/181
+09-12-2021 03:10:20 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4709 objects
+09-12-2021 03:10:35 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 24's images
+09-12-2021 03:10:58 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 24's images
+09-12-2021 03:10:58 - crawler.spider.Crawl - INFO --> Downloaded chapter: 24/181
+09-12-2021 03:10:58 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4199 objects
+09-12-2021 03:11:23 - crawler.spider.Fetch - WARNING --> Image Content: Timeout, Retrying (retry: #0)
+09-12-2021 03:11:24 - crawler.spider.Fetch - INFO --> Image Content: Retry Successful (retry: #0)
+09-12-2021 03:11:24 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 25's images
+09-12-2021 03:11:48 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 25's images
+09-12-2021 03:11:48 - crawler.spider.Crawl - INFO --> Downloaded chapter: 25/181
+09-12-2021 03:11:48 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4475 objects
+09-12-2021 03:12:02 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 26's images
+09-12-2021 03:12:24 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 26's images
+09-12-2021 03:12:24 - crawler.spider.Crawl - INFO --> Downloaded chapter: 26/181
+09-12-2021 03:12:24 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 5517 objects
+09-12-2021 03:12:37 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 27's images
+09-12-2021 03:12:59 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 27's images
+09-12-2021 03:12:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 27/181
+09-12-2021 03:12:59 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4755 objects
+09-12-2021 03:13:08 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 28's images
+09-12-2021 03:13:35 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 28's images
+09-12-2021 03:13:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 28/181
+09-12-2021 03:13:35 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 7542 objects
+09-12-2021 03:13:44 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 29's images
+09-12-2021 03:14:22 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 29's images
+09-12-2021 03:14:22 - crawler.spider.Crawl - INFO --> Downloaded chapter: 29/181
+09-12-2021 03:14:22 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 6082 objects
+09-12-2021 03:14:31 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 30's images
+09-12-2021 03:14:50 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 30's images
+09-12-2021 03:14:50 - crawler.spider.Crawl - INFO --> Downloaded chapter: 30/181
+09-12-2021 03:14:50 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 8608 objects
+09-12-2021 03:15:00 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 31's images
+09-12-2021 03:15:32 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 31's images
+09-12-2021 03:15:32 - crawler.spider.Crawl - INFO --> Downloaded chapter: 31/181
+09-12-2021 03:15:32 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 2766 objects
+09-12-2021 03:15:43 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 32's images
+09-12-2021 03:16:03 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 32's images
+09-12-2021 03:16:03 - crawler.spider.Crawl - INFO --> Downloaded chapter: 32/181
+09-12-2021 03:16:03 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 6667 objects
+09-12-2021 03:16:13 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 33's images
+09-12-2021 03:16:29 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 33's images
+09-12-2021 03:16:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 33/181
+09-12-2021 03:16:29 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3740 objects
+09-12-2021 03:16:41 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 34's images
+09-12-2021 03:17:06 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 34's images
+09-12-2021 03:17:06 - crawler.spider.Crawl - INFO --> Downloaded chapter: 34/181
+09-12-2021 03:17:06 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3270 objects
+09-12-2021 03:17:17 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 35's images
+09-12-2021 03:17:44 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 35's images
+09-12-2021 03:17:44 - crawler.spider.Crawl - INFO --> Downloaded chapter: 35/181
+09-12-2021 03:17:44 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 5306 objects
+09-12-2021 03:17:52 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 36's images

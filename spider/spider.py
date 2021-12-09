@@ -13,13 +13,14 @@ from gdrive import Google_Drive
 
 class Fetch:
     logger = logging.getLogger("crawler.spider.Fetch")
-    MAX_TRIES = 3
-    SEM = asyncio.Semaphore(25)
+    MAX_TRIES = 7
+    SEM = asyncio.Semaphore(20)
 
     @staticmethod
     async def async_fetch(session, url, _type, tries=0):
         if tries > Fetch.MAX_TRIES:
-            raise f"Error: Retry limit exceeded (retry: #{tries - 1})"
+            raise Exception(
+                f"Error: Retry limit exceeded (retry: #{tries - 1})")
 
         resp = None
 
@@ -53,7 +54,8 @@ class Fetch:
         tasks = []
 
         connector = TCPConnector(force_close=True)
-        async with ClientSession(headers=headers, connector=connector) as session:
+        async with ClientSession(headers=headers,
+                                 connector=connector) as session:
             for url in urls:
                 task = asyncio.ensure_future(
                     Fetch.async_fetch(session, url, _type))
@@ -83,6 +85,9 @@ class Crawl:
         bs = bs4.BeautifulSoup(requests.get(url).content, "html.parser")
         title = bs.select("div.story-info-right>h1")[0].text
         res = bs.select("li.a-h>a")
+        Crawl.logger.debug(
+            f"Fetched --> Title: {title} --> Chapter Index Extracted --> {len(res)} chapters found"
+        )
         return title, res
 
     @staticmethod
@@ -101,6 +106,7 @@ class Crawl:
     @staticmethod
     def custom_chapter_range(chapters, start, end, wrap="__no_wrap__"):
         chapters = Crawl.sort_chapters(chapters)
+        Crawl.logger.debug(f"Chapters {start}-{end} to fetch")
         return chapters[start:end]
 
     @staticmethod
@@ -111,6 +117,9 @@ class Crawl:
             urls.append(chapter["url"])
 
         resp = Fetch.fetch_resp(urls, _type="Image Urls")
+        Crawl.logger.debug(
+            f"Fetched --> {len(resp)} chapters --> Every chapter's image urls are extracted"
+        )
 
         for j in range(len(chapters)):
             bs = bs4.BeautifulSoup(str(resp[j]), "html.parser")
@@ -142,9 +151,9 @@ class Crawl:
             "Referer": "https://mangakakalot.com/",
         }
 
-        resp = Fetch.fetch_resp(urls, headers=headers, _type="Image Content")
-
         _id = chapter["chapter"]
+        resp = Fetch.fetch_resp(urls, headers=headers, _type="Image Content")
+        Crawl.logger.debug(f"Fetched --> Chapter {_id}'s images")
 
         folder_id = Google_Drive.create_folder(f"{_id}",
                                                Google_Drive.PARENT_FOLDER_ID)
@@ -160,6 +169,8 @@ class Crawl:
                     lambda x: Crawl.threaded_upload_image(
                         folder_id, f"{x[0] + 1}.jpg", x[1]), enumerate(resp)))
 
+        Crawl.logger.debug(f"Uploaded to drive --> Chapter {_id}'s images")
+
         for i, _id in enumerate(file_ids):
             chapter["images_links"][i +
                                     1] = Google_Drive.get_public_url_file(_id)
@@ -168,7 +179,7 @@ class Crawl:
             f"Downloaded chapter: {chapter['chapter']}/{Crawl.NUM}")
 
         c = gc.collect()
-        Crawl.logger.debug(f"Garbage collector collected {c} objects")
+        Crawl.logger.debug(f"Garbage collector --> collected {c} objects")
         return chapter
 
     @staticmethod
