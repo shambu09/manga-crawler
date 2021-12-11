@@ -49,6 +49,7 @@ class Google_Drive(Authentication):
     gauth = None
     PARENT_FOLDER_ID = None
     TIME = None
+    REFRESH_TIME = 2100
 
     @classmethod
     def init(
@@ -66,7 +67,7 @@ class Google_Drive(Authentication):
     def refresh(cls, logger):
         step = time.monotonic()
         #! check timer for 2100 secs (35 mins) elapsed time
-        if step - cls.TIME > 2100:
+        if step - cls.TIME > cls.REFRESH_TIME:
             cls.drive, cls.gauth = cls.get_drive_service()
             cls.TIME = step
             logger.debug(f"Refreshed --> Drive Object is refreshed")
