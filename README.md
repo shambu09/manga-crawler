@@ -11,7 +11,6 @@
 Crawls manga and uploads the data to Google drive.
 
 ## TODOs
-<hr>
 
 ~~TODO: Write tests for retry_async~~
 
