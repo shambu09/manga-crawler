@@ -131,14 +131,10 @@ class Crawl:
 
         _id = chapter["chapter"]
 
-        if _id % 50 == 0:
-            Google_Drive.refresh()
-            Crawl.logger.debug(
-                f"Refreshed --> Drive Object is refreshed (#{_id})")
-
         resp = Fetch.fetch_resp(urls, headers=headers, _type="Image Content")
         Crawl.logger.debug(f"Fetched --> Chapter {_id}'s images")
 
+        Google_Drive.refresh(Crawl.logger)
         folder_id = Google_Drive.create_folder(f"{_id}",
                                                Google_Drive.PARENT_FOLDER_ID)
 

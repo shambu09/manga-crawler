@@ -1,5 +1,14 @@
 """
-TODO: Write tests for the crawler.
+// TODO: Write tests for retry_async
+// TODO: Custom Viewer for Manhwa and Manhua
+// TODO: redux integration
+// TODO: Drive refresh every 35 minutes
+TODO: httpobject for drive auth
+TODO: async.run_in_exector for drive uploads.
+TODO: site revamp
+TODO: google drive api asyncio
+TODO: Mongo db implementation
+TODO: Add support for multiple sites
 """
 # import os
 # import requests
@@ -73,7 +82,6 @@ from concurrent import futures
 from concurrent.futures import thread
 import json
 import os
-from attr import astuple
 
 import requests
 from dotenv import load_dotenv
@@ -226,26 +234,21 @@ class N_Aoihttp_async:
 #----------------------------------------------------------------------------------
 from utils import retry, retry_async
 
-
 # @retry(method="dummy content", max_retries=3, delay=0.1)
 # def dummy(_type=""):
 #     print("Success")
-
 
 # dummy(_type="Content")
 # print()
 # dummy(_type="Image")
 #----------------------------------------------------------------------------------
-#* TODO: Write tests for retry_async
-# TODO: Custom Viewer for Manhwa
-# TODO: httpobject for drive auth
-# TODO: async.run_in_exector for drive uploads.
 
 import time
 import threading
 
 t = 0
 res = 0
+
 
 def tick():
     global t
@@ -265,9 +268,21 @@ async def test_retry_async():
         print("Failed")
         raise Exception("Failed")
 
+
 # x = threading.Thread(target=tick)
 # x.start()
 # task = asyncio.ensure_future(test_retry_async())
 # asyncio.get_event_loop().run_until_complete(task)
 # print(task.result())
+#----------------------------------------------------------------------------------
+# import time
+
+# k = time.monotonic()
+# print(time.time())
+# print(time.monotonic())
+
+# time.sleep(1)
+# print(time.time_ns())
+# print(time.monotonic_ns())
+# print(time.monotonic() - k)
 #----------------------------------------------------------------------------------

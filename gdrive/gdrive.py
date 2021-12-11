@@ -1,5 +1,6 @@
 import json
 import os
+import time
 from io import BytesIO
 
 import requests
@@ -12,20 +13,20 @@ from pydrive.drive import GoogleDrive
 
 class Authentication:
     ACCOUNT_SECRETS = None
-    scope = None
+    SCOPE = None
 
     @classmethod
-    def initialize_service(cls, ACCOUNT_SECRETS, scope):
+    def initialize_service(cls, ACCOUNT_SECRETS, SCOPE):
         cls.ACCOUNT_SECRETS = ACCOUNT_SECRETS
-        cls.scope = scope
+        cls.SCOPE = SCOPE
 
     @classmethod
     def get_access_token(cls):
         ACCOUNT_SECRETS = cls.ACCOUNT_SECRETS
-        scope = cls.scope
+        SCOPE = cls.SCOPE
 
         credentials = service_account.Credentials.from_service_account_file(
-            ACCOUNT_SECRETS, scopes=scope)
+            ACCOUNT_SECRETS, scopes=SCOPE)
         credentials.refresh(grequests.Request())
 
         return credentials.token
@@ -33,11 +34,11 @@ class Authentication:
     @classmethod
     def get_drive_service(cls):
         ACCOUNT_SECRETS = cls.ACCOUNT_SECRETS
-        scope = cls.scope
+        SCOPE = cls.SCOPE
         gauth = GoogleAuth()
 
         gauth.credentials = ServiceAccountCredentials.from_json_keyfile_name(
-            ACCOUNT_SECRETS, scope)
+            ACCOUNT_SECRETS, SCOPE)
         drive = GoogleDrive(gauth)
 
         return drive, gauth
@@ -47,21 +48,28 @@ class Google_Drive(Authentication):
     drive = None
     gauth = None
     PARENT_FOLDER_ID = None
+    TIME = None
 
     @classmethod
     def init(
         cls,
         ACCOUNT_SECRETS,
         PARENT_FOLDER_ID=None,
-        scope=["https://www.googleapis.com/auth/drive"],
+        SCOPE=["https://www.googleapis.com/auth/drive"],
     ):
         cls.PARENT_FOLDER_ID = PARENT_FOLDER_ID
-        cls.initialize_service(ACCOUNT_SECRETS, scope)
+        cls.initialize_service(ACCOUNT_SECRETS, SCOPE)
         cls.drive, cls.gauth = cls.get_drive_service()
+        cls.TIME = time.monotonic()
 
     @classmethod
-    def refresh(cls):
-        cls.drive, cls.gauth = cls.get_drive_service()
+    def refresh(cls, logger):
+        step = time.monotonic()
+        #! check timer for 2100 secs (35 mins) elapsed time
+        if step - cls.TIME > 2100:
+            cls.drive, cls.gauth = cls.get_drive_service()
+            cls.TIME = step
+            logger.debug(f"Refreshed --> Drive Object is refreshed")
 
     @classmethod
     def find_folder_by_name(cls, name):
