@@ -1,5 +1,14 @@
 """
-TODO: Write tests for the crawler.
+// TODO: Write tests for retry_async
+// TODO: Custom Viewer for Manhwa and Manhua
+// TODO: redux integration
+// TODO: Drive refresh every 35 minutes
+TODO: httpobject for drive auth
+TODO: async.run_in_exector for drive uploads.
+TODO: site revamp
+TODO: google drive api asyncio
+TODO: Mongo db implementation
+TODO: Add support for multiple sites
 """
 # import os
 # import requests
@@ -68,6 +77,9 @@ TODO: Write tests for the crawler.
 # import io
 # res = io.BytesIO(res.encode())
 
+from asyncio import tasks
+from concurrent import futures
+from concurrent.futures import thread
 import json
 import os
 
@@ -118,7 +130,7 @@ Google_Drive.init(ACCOUNT_SECRETS)
 #     g = Google_Drive.download_json_file(i)
 #     for chap in g:
 #         del chap["images"]
-    
+
 #     out = {
 #         "title": meta[i],
 #         "num_chapters": len(g),
@@ -131,4 +143,146 @@ Google_Drive.init(ACCOUNT_SECRETS)
 
 # assert isinstance(j, dict)
 # Google_Drive.update_json_file("13iEugdhj_3MMsYOMpIKXQ4qNixsw1jg9", json.dumps(j, indent=6))
+#----------------------------------------------------------------------------------
+import asyncio
+import aiohttp
+
+
+class N_Flawed_Async:
+    @staticmethod
+    async def request():
+        return requests.get("https://www.google.com")
+
+    @staticmethod
+    async def req_all():
+        tasks = []
+        for i in range(10):
+            task = asyncio.ensure_future(N_Flawed_Async.request())
+            tasks.append(task)
+
+        return await asyncio.gather(*tasks)
+
+    @staticmethod
+    def req_all_s():
+        tasks = []
+        for i in range(10):
+            tasks.append(requests.get("https://www.google.com"))
+
+        return tasks
+
+    @staticmethod
+    def req_all_p():
+        loop = asyncio.get_event_loop()
+        future = asyncio.ensure_future(N_Flawed_Async.req_all())
+        loop.run_until_complete(future)
+        return future.result()
+
+
+class N_Correct_Async:
+    @staticmethod
+    def req():
+        return requests.get("https://www.google.com").status_code
+
+    @staticmethod
+    async def req_all_p():
+        loop = asyncio.get_event_loop()
+        tasks = []
+        for i in range(1000):
+            task = loop.run_in_executor(
+                None, N_Correct_Async.req
+            )  #Should be a Self-Contained function, which is blocking the asyncio event loop
+            tasks.append(task)
+
+        return await asyncio.gather(*tasks)
+
+    @staticmethod
+    def req_all_p_executor():
+        loop = asyncio.get_event_loop()
+        future = asyncio.ensure_future(N_Correct_Async.req_all_p())
+        loop.run_until_complete(future)
+        return future.result()
+
+
+class N_Aoihttp_async:
+    @staticmethod
+    async def req(session):
+        async with session.get("https://www.google.com",
+                               timeout=25) as response:
+            return response.status
+
+    @staticmethod
+    async def req_all_aiohttp():
+        tasks = []
+        async with aiohttp.ClientSession() as session:
+            for i in range(10):
+                task = asyncio.ensure_future(N_Aoihttp_async.req(session))
+                tasks.append(task)
+
+            return await asyncio.gather(*tasks)
+
+    @staticmethod
+    def req_all_aiohttp_executor():
+        loop = asyncio.get_event_loop()
+        future = asyncio.ensure_future(N_Aoihttp_async.req_all_aiohttp())
+        loop.run_until_complete(future)
+        return future.result()
+
+
+# print(N_Flawed_Async.req_all_p())
+# print(N_Correct_Async.req_all_p_executor())
+# print(N_Aoihttp_async.req_all_aiohttp_executor())
+#----------------------------------------------------------------------------------
+from utils import retry, retry_async
+
+# @retry(method="dummy content", max_retries=3, delay=0.1)
+# def dummy(_type=""):
+#     print("Success")
+
+# dummy(_type="Content")
+# print()
+# dummy(_type="Image")
+#----------------------------------------------------------------------------------
+
+import time
+import threading
+
+t = 0
+res = 0
+
+
+def tick():
+    global t
+    while True:
+        time.sleep(1)
+        print(t, end="\t", flush=True)
+        t += 1
+
+
+@retry_async("dummy", max_retries=5, delay=1)
+async def test_retry_async():
+    global res
+    res += 1
+    if res > 5:
+        print("Success")
+    else:
+        print("Failed")
+        raise Exception("Failed")
+
+
+# x = threading.Thread(target=tick)
+# x.start()
+# task = asyncio.ensure_future(test_retry_async())
+# asyncio.get_event_loop().run_until_complete(task)
+# print(task.result())
+#----------------------------------------------------------------------------------
+# import time
+
+# k = time.monotonic()
+# print(time.time())
+# print(time.monotonic())
+
+# time.sleep(1)
+# print(time.time_ns())
+# print(time.monotonic_ns())
+# print(time.monotonic() - k)
 #----------------------------------------------------------------------------------

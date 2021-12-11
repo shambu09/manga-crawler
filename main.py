@@ -20,7 +20,7 @@ METADATA_JSON = os.environ.get('METADATA_JSON')
 
 
 @timeit
-def main(url, start=0, end=-1):
+def main(url, start=0, end=-1, _type="manga"):
     Google_Drive.init(ACCOUNT_SECRETS, PARENT_FOLDER_ID)
     logger = logging.getLogger("crawler.main")
 
@@ -36,6 +36,9 @@ def main(url, start=0, end=-1):
         Google_Drive.PARENT_FOLDER_ID,
     )
 
+    logger.debug(
+        f"Created drive folder --> folder id: {Google_Drive.PARENT_FOLDER_ID}")
+
     pipe = Pipe([
         Crawl.extract_chapter_urls,
         Pipe.customize(start=start, end=end)(Crawl.custom_chapter_range),
@@ -49,8 +52,10 @@ def main(url, start=0, end=-1):
     out = {
         "title": f"{title} ({start} - {end})",
         "num_chapters": len(out),
+        "type": _type,
         "chapters": out,
     }
+
     chapter_meta = json.dumps(out, indent=6)
     chapter_meta = io.BytesIO(chapter_meta.encode())
 
@@ -60,6 +65,7 @@ def main(url, start=0, end=-1):
         chapter_meta,
         "application/json",
     )
+    logger.debug(f"Created metadata drive file --> file id: {file_id}")
     logger.info(f"Uploaded metadata of manga")
 
     metadata = Google_Drive.download_json_file(METADATA_JSON)
@@ -75,10 +81,11 @@ def main(url, start=0, end=-1):
     with open(f"metadata/{title}.json", "w") as f:
         json.dump(out, f, indent=6)
 
-    gc.collect()
+    c = gc.collect()
+    Crawl.logger.debug(f"Garbage collector --> collected {c} objects")
     logger.info("Done crawling!")
 
 
 if __name__ == "__main__":
-    main("https://readmanganato.com/manga-dr980474", 150, -1)
+    main("https://readmanganato.com/manga-dr980474", 0, -1, _type="manhwa")
     # main("https://readmanganato.com/manga-qi951517", 0, 2)
