@@ -2116,3 +2116,76 @@
 09-12-2021 19:23:59 - crawler.utils.retry - WARNING --> dummy: test_retry_async failed with: Failed
 09-12-2021 19:23:59 - crawler.utils.retry - WARNING --> dummy: Retrying test_retry_async (retry: #4)
 09-12-2021 19:24:31 - crawler.utils.retry - INFO --> dummy: test_retry_async retry succeeded (retry: #4)
+12-12-2021 16:46:26 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-oc955385
+12-12-2021 16:46:27 - crawler.spider.Crawl - DEBUG --> Fetched --> Title: Hunter X Hunter --> Chapter Index Extracted --> 393 chapters found
+12-12-2021 16:46:27 - crawler.main - INFO --> Title: Hunter X Hunter (380 - 393)
+12-12-2021 16:46:31 - crawler.main - DEBUG --> Created drive folder --> folder id: 1kWQ_1SYyIl4x9oazkS0WwfDwaG2lYQhb
+12-12-2021 16:46:31 - crawler.spider.Crawl - DEBUG --> Chapters 380-393 to fetch
+12-12-2021 16:46:32 - crawler.spider.Crawl - DEBUG --> Fetched --> 13 chapters --> Every chapter's image urls are extracted
+12-12-2021 16:46:40 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 381's images
+12-12-2021 16:47:01 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 381's images
+12-12-2021 16:47:01 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 49179 objects
+12-12-2021 16:47:01 - crawler.spider.Crawl - INFO --> Downloaded chapter: 381/13
+12-12-2021 16:47:03 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 382's images
+12-12-2021 16:47:19 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 382's images
+12-12-2021 16:47:19 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3746 objects
+12-12-2021 16:47:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 382/13
+12-12-2021 16:47:22 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 383's images
+12-12-2021 16:47:35 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 383's images
+12-12-2021 16:47:35 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 1517 objects
+12-12-2021 16:47:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 383/13
+12-12-2021 16:47:39 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 384's images
+12-12-2021 16:47:53 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 384's images
+12-12-2021 16:47:53 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 5585 objects
+12-12-2021 16:47:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 384/13
+12-12-2021 16:47:58 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 385's images
+12-12-2021 16:48:13 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 385's images
+12-12-2021 16:48:13 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 1880 objects
+12-12-2021 16:48:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 385/13
+12-12-2021 16:48:15 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 386's images
+12-12-2021 16:48:29 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 386's images
+12-12-2021 16:48:29 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3342 objects
+12-12-2021 16:48:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 386/13
+12-12-2021 16:48:31 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 387's images
+12-12-2021 16:48:44 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 387's images
+12-12-2021 16:48:44 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3299 objects
+12-12-2021 16:48:44 - crawler.spider.Crawl - INFO --> Downloaded chapter: 387/13
+12-12-2021 16:48:46 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 388's images
+12-12-2021 16:48:58 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 388's images
+12-12-2021 16:48:59 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4153 objects
+12-12-2021 16:48:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 388/13
+12-12-2021 16:49:01 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 389's images
+12-12-2021 16:49:12 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 389's images
+12-12-2021 16:49:12 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4113 objects
+12-12-2021 16:49:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 389/13
+12-12-2021 16:49:14 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 390's images
+12-12-2021 16:49:25 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 390's images
+12-12-2021 16:49:25 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4482 objects
+12-12-2021 16:49:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 390/13
+12-12-2021 16:49:28 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 391's images
+12-12-2021 16:49:38 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 391's images
+12-12-2021 16:49:38 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3387 objects
+12-12-2021 16:49:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 391/13
+12-12-2021 16:49:41 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 392's images
+12-12-2021 16:49:52 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 392's images
+12-12-2021 16:49:52 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 4476 objects
+12-12-2021 16:49:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 392/13
+12-12-2021 16:49:55 - crawler.spider.Crawl - DEBUG --> Fetched --> Chapter 393's images
+12-12-2021 16:50:06 - crawler.spider.Crawl - DEBUG --> Uploaded to drive --> Chapter 393's images
+12-12-2021 16:50:06 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 3752 objects
+12-12-2021 16:50:06 - crawler.spider.Crawl - INFO --> Downloaded chapter: 393/13
+12-12-2021 16:50:08 - crawler.main - DEBUG --> Created metadata drive file --> file id: 1sj-yTmPfhXhCrErTF0h9qlf2i7MS8KIr
+12-12-2021 16:50:19 - crawler.db.DB - DEBUG --> Response --> 200: success
+12-12-2021 16:50:19 - crawler.main - INFO --> Uploaded metadata of manga
+12-12-2021 16:50:27 - crawler.db.DB - DEBUG --> Response --> 200: Index Altered
+12-12-2021 16:50:27 - crawler.main - INFO --> Updated global metadata index
+12-12-2021 16:50:27 - crawler.spider.Crawl - DEBUG --> Garbage collector --> collected 850 objects
+12-12-2021 16:50:27 - crawler.main - INFO --> Done crawling!
+12-12-2021 16:50:27 - crawler.utils.timeit - DEBUG --> "main" took: 240.43791151046753 secs
+
+12-12-2021 16:50:27 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-ma952557
+12-12-2021 16:50:28 - crawler.spider.Crawl - DEBUG --> Fetched --> Title: Berserk --> Chapter Index Extracted --> 399 chapters found
+12-12-2021 16:50:28 - crawler.main - INFO --> Title: Berserk (0 - 10)
+12-12-2021 16:50:29 - crawler.main - DEBUG --> Created drive folder --> folder id: 1p0xL1oLzbFffzjg6qL-pYznDzS4vvgIJ
+12-12-2021 16:50:29 - crawler.spider.Crawl - DEBUG --> Chapters 0-10 to fetch
+12-12-2021 16:50:30 - crawler.spider.Crawl - DEBUG --> Fetched --> 10 chapters --> Every chapter's image urls are extracted

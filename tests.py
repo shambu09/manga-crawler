@@ -3,11 +3,10 @@
 // TODO: Custom Viewer for Manhwa and Manhua
 // TODO: redux integration
 // TODO: Drive refresh every 35 minutes
-TODO: httpobject for drive auth
+// TODO: Mongo db implementation
 TODO: async.run_in_exector for drive uploads.
 TODO: site revamp
-TODO: google drive api asyncio
-TODO: Mongo db implementation
+TODO: httpobject for drive auth
 TODO: Add support for multiple sites
 """
 # import os

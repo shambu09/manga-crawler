@@ -10,6 +10,7 @@ from gdrive import Google_Drive
 from pipe import Pipe
 from spider import Crawl
 from utils import get_logger, timeit
+from db import DB
 
 load_dotenv()
 get_logger()
@@ -57,6 +58,7 @@ def main(url, start=0, end=-1, _type="manga"):
     }
 
     chapter_meta = json.dumps(out, indent=6)
+    _metadata = out
     chapter_meta = io.BytesIO(chapter_meta.encode())
 
     file_id = Google_Drive.create_file(
@@ -66,12 +68,17 @@ def main(url, start=0, end=-1, _type="manga"):
         "application/json",
     )
     logger.debug(f"Created metadata drive file --> file id: {file_id}")
+
+    DB.put_manga(file_id, _metadata)
+
     logger.info(f"Uploaded metadata of manga")
 
     metadata = Google_Drive.download_json_file(METADATA_JSON)
     metadata[file_id] = f"{title} ({start} - {end})"
     metadata = json.dumps(metadata, indent=6)
+
     Google_Drive.update_json_file(METADATA_JSON, metadata)
+    DB.update_index({file_id: f"{title} ({start} - {end})"})
 
     logger.info(f"Updated global metadata index")
 
@@ -87,5 +94,7 @@ def main(url, start=0, end=-1, _type="manga"):
 
 
 if __name__ == "__main__":
-    main("https://readmanganato.com/manga-dr980474", 0, -1, _type="manhwa")
+    main("https://readmanganato.com/manga-oc955385", 380, -1, _type="manga")
+    # main("https://readmanganato.com/manga-ma952557", 0, 10, _type="manga")
+    # main("https://readmanganato.com/manga-dr980474", 0, -1, _type="manhwa")
     # main("https://readmanganato.com/manga-qi951517", 0, 2)
