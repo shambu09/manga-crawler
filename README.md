@@ -1,5 +1,6 @@
 # manga-crawler
 [![App: Site](https://img.shields.io/badge/App-Site-orange)](https://shambu09.github.io/manga-viewer/)
+[![Server: URL](https://img.shields.io/badge/Server-URL-yellow)](https://manga-utils-server.herokuapp.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 <a href="https://github.com/shambu09/manga-viewer">
 <img src ="https://img.shields.io/badge/Viewer-manga--viewer-blue">
@@ -20,6 +21,8 @@ Crawls manga and uploads the data to Google drive.
 
 ~~TODO: Drive refresh every 35 minutes~~
 
+~~TODO: Mongo db implementation~~
+
 TODO: httpobject for drive auth
 
 TODO: async.run_in_exector for drive uploads.
@@ -27,7 +30,5 @@ TODO: async.run_in_exector for drive uploads.
 TODO: site revamp
 
 TODO: google drive api asyncio
-
-TODO: Mongo db implementation
 
 TODO: Add support for multiple sites

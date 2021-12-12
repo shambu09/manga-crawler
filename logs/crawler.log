@@ -1562,3 +1562,23 @@
 09-12-2021 19:23:59 - crawler.utils.retry - WARNING --> dummy: test_retry_async failed with: Failed
 09-12-2021 19:23:59 - crawler.utils.retry - WARNING --> dummy: Retrying test_retry_async (retry: #4)
 09-12-2021 19:24:31 - crawler.utils.retry - INFO --> dummy: test_retry_async retry succeeded (retry: #4)
+12-12-2021 16:46:26 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-oc955385
+12-12-2021 16:46:27 - crawler.main - INFO --> Title: Hunter X Hunter (380 - 393)
+12-12-2021 16:47:01 - crawler.spider.Crawl - INFO --> Downloaded chapter: 381/13
+12-12-2021 16:47:19 - crawler.spider.Crawl - INFO --> Downloaded chapter: 382/13
+12-12-2021 16:47:35 - crawler.spider.Crawl - INFO --> Downloaded chapter: 383/13
+12-12-2021 16:47:53 - crawler.spider.Crawl - INFO --> Downloaded chapter: 384/13
+12-12-2021 16:48:13 - crawler.spider.Crawl - INFO --> Downloaded chapter: 385/13
+12-12-2021 16:48:29 - crawler.spider.Crawl - INFO --> Downloaded chapter: 386/13
+12-12-2021 16:48:44 - crawler.spider.Crawl - INFO --> Downloaded chapter: 387/13
+12-12-2021 16:48:59 - crawler.spider.Crawl - INFO --> Downloaded chapter: 388/13
+12-12-2021 16:49:12 - crawler.spider.Crawl - INFO --> Downloaded chapter: 389/13
+12-12-2021 16:49:25 - crawler.spider.Crawl - INFO --> Downloaded chapter: 390/13
+12-12-2021 16:49:38 - crawler.spider.Crawl - INFO --> Downloaded chapter: 391/13
+12-12-2021 16:49:52 - crawler.spider.Crawl - INFO --> Downloaded chapter: 392/13
+12-12-2021 16:50:06 - crawler.spider.Crawl - INFO --> Downloaded chapter: 393/13
+12-12-2021 16:50:19 - crawler.main - INFO --> Uploaded metadata of manga
+12-12-2021 16:50:27 - crawler.main - INFO --> Updated global metadata index
+12-12-2021 16:50:27 - crawler.main - INFO --> Done crawling!
+12-12-2021 16:50:27 - crawler.main - INFO --> Started crawling: https://readmanganato.com/manga-ma952557
+12-12-2021 16:50:28 - crawler.main - INFO --> Title: Berserk (0 - 10)
